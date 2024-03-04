@@ -30,6 +30,7 @@ st.sidebar.markdown('''
 # **Profissão: Cientista de Dados**
 
 **Por:** [Rafael Rosa Alves](https://www.linkedin.com/in/rafael-rosa-alves/)<br>
+**Arquivos:** [Pagina GitHub](https://github.com/raafarosa/streamlit-example/tree/master/Projeto_2_Previsao_de_renda)<br>
 ---
 ''', unsafe_allow_html=True)
 
