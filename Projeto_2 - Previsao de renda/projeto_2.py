@@ -16,53 +16,22 @@ from sklearn import tree
 
 
 st.set_page_config(
-    page_title="Projeto #02 | Previsão de renda",
-    page_icon="https://raw.githubusercontent.com/rhatiro/previsao-renda/main/ebac-course-utils/media/icon/favicon.ico",
+    page_title="Projeto - 02 Previsão de renda",
+    page_icon="https://raw.githubusercontent.com/raafarosa/Ebac_Data_Scientist_General/main/utilities/regular_ebac-logo.ico",
     layout="wide",
     initial_sidebar_state="auto",
 )
 
-
 st.sidebar.markdown('''
 <div style="text-align:center">
-<img src="https://raw.githubusercontent.com/rhatiro/previsao-renda/main/ebac-course-utils/media/logo/newebac_logo_black_half.png" alt="ebac-logo" width=50%>
+<img src="https://raw.githubusercontent.com/raafarosa/Ebac_Data_Scientist_General/main/utilities/newebac_logo_black_half.png" alt="ebac-logo" width=50%>
 </div>
 
 # **Profissão: Cientista de Dados**
-### [**Projeto #02** | Previsão de renda](https://github.com/rhatiro/previsao-renda)
 
-**Por:** [Roberto Hatiro Nishiyama](https://www.linkedin.com/in/rhatiro/)<br>
-**Data:** 14 de abril de 2023.<br>
-<!-- **Última atualização:** 14 de abril de 2023. -->
-
+**Por:** [Rafael Rosa Alves](https://www.linkedin.com/in/rafael-rosa-alves/)<br>
 ---
 ''', unsafe_allow_html=True)
-
-with st.sidebar.expander("Índice", expanded=False):
-    st.markdown('''
-    - [Etapa 1 CRISP - DM: Entendimento do negócio](#1)
-    - [Etapa 2 Crisp-DM: Entendimento dos dados](#2)
-        > - [Dicionário de dados](#dicionario)
-        > - [Carregando os pacotes](#pacotes)
-        > - [Carregando os dados](#dados)
-        > - [Entendimento dos dados - Univariada](#univariada)
-        >> - [Estatísticas descritivas das variáveis quantitativas](#describe)
-        > - [Entendimento dos dados - Bivariadas](#bivariada)
-        >> - [Matriz de correlação](#correlacao)
-        >> - [Matriz de dispersão](#dispersao)
-        >>> - [Clustermap](#clustermap)
-        >>> - [Linha de tendência](#tendencia)
-        >> - [Análise das variáveis qualitativas](#qualitativas)
-    - [Etapa 3 Crisp-DM: Preparação dos dados](#3)
-    - [Etapa 4 Crisp-DM: Modelagem](#4)
-        > - [Divisão da base em treino e teste](#train_test)
-        > - [Seleção de hiperparâmetros do modelo com for loop](#for_loop)
-        > - [Rodando o modelo](#rodando)
-    - [Etapa 5 Crisp-DM: Avaliação dos resultados](#5)
-    - [Etapa 6 Crisp-DM: Implantação](#6)
-        > - [Simulação](#simulacao)
-    ''', unsafe_allow_html=True)
-
 
 with st.sidebar.expander("Bibliotecas/Pacotes", expanded=False):
     st.code('''
@@ -84,7 +53,7 @@ with st.sidebar.expander("Bibliotecas/Pacotes", expanded=False):
     ''', language='python')
 
 
-st.markdown('# <div style="text-align:center"> [Previsão de renda](https://github.com/rhatiro/previsao-renda) </div>',
+st.markdown('# <div style="text-align:center"> Previsão de renda </div>',
             unsafe_allow_html=True)
 
 
@@ -97,9 +66,9 @@ st.markdown('''
 
 
 st.markdown('''
-Uma instituição financeira quer conhecer melhor o perfil de renda de seus novos clientes para diversos fins, por exemplo, melhor dimensionar o limite de cartões de crédito dos novos clientes, sem necessariamente solicitar olerites ou documentações que impactem na experiência do seu cliente.
+Uma instituição financeira está interessada em aprofundar sua compreensão do perfil de renda de seus novos clientes para várias finalidades, como ajustar de forma mais precisa os limites de crédito dos cartões dos novos clientes, sem a necessidade de solicitar olerites ou documentação que possa afetar a experiência do cliente.
 
-Para isto, conduziu um estudo com alguns clientes, comprovando suas rendas através de olerites e outros documentos, e pretende construir um modelo preditivo para esta renda com base em algumas variáveis que já possui em seu banco de dados.
+Com esse objetivo, realizou um estudo com alguns clientes, validando suas rendas por meio de olerites e outros documentos, e tem a intenção de desenvolver um modelo preditivo para prever essas rendas com base em algumas variáveis já presentes em seu banco de dados.
 ''')
 
 
@@ -207,7 +176,7 @@ st.write((renda
           ))
 
 
-st.markdown('A partir da matriz de correlação, é possível observar que a variável que apresenta maior relação com a varíavel `renda` é `tempo_emprego`, com um índice de correlação de 38,5%.')
+st.markdown('Com base na matriz de correlação, nota-se que a variável `tempo_emprego` exibe a maior associação com a variável `renda`, apresentando um coeficiente de correlação de 38,5%.')
 
 
 st.markdown('''
@@ -226,7 +195,7 @@ sns.pairplot(data=renda,
 st.pyplot(plt)
 
 
-st.markdown('Ao analisar o *pairplot*, que consiste na matriz de dispersão, é possível identificar alguns *outliers* na variável `renda`, os quais podem afetar o resultado da análise de tendência, apesar de ocorrerem com baixa frequência. Além disso, é observada uma baixa correlação entre praticamente todas as variáveis quantitativas, reforçando os resultados obtidos na matriz de correlação.')
+st.markdown('Ao examinar o *pairplot*, que é uma representação gráfica na forma de matriz de dispersão, é perceptível a presença de alguns *outliers* na variável `renda`, os quais têm o potencial de influenciar os resultados da análise de tendência, embora sejam pouco frequentes. Ademais, nota-se uma correlação fraca entre praticamente todas as variáveis quantitativas, corroborando os achados da matriz de correlação.')
 
 
 st.markdown('''
@@ -247,7 +216,7 @@ plt.setp(ax.ax_heatmap.get_xticklabels(), rotation=45)
 st.pyplot(plt)
 
 
-st.markdown('Com o *clustermap*, é possível reforçar novamente os resultados de baixa correlação com a variável `renda`. Apenas a variável `tempo_emprego` apresenta um índice considerável para análise. Além disso, foram apresentadas duas variáveis booleanas, `posse_de_imovel` e `posse_de_veiculo`, mas que também possuem baixo índice de correlação com renda.')
+st.markdown('Ao analisar o *pairplot*, uma representação gráfica na forma de matriz de dispersão, é evidente a presença de alguns *outliers* na variável `renda`, os quais possuem o potencial de impactar os resultados da análise de tendência, apesar de sua baixa frequência. Além disso, observa-se uma correlação fraca entre praticamente todas as variáveis quantitativas, o que confirma os resultados obtidos na matriz de correlação.')
 
 
 st.markdown('''
@@ -270,7 +239,7 @@ sns.regplot(x='tempo_emprego',
 st.pyplot(plt)
 
 
-st.markdown('Embora a correlação entre a variável `tempo_emprego` e a variável `renda` não seja tão alta, é possível identificar facilmente a covariância positiva com a inclinação da linha de tendência.')
+st.markdown('Apesar de não ser tão alta, a correlação entre a variável `tempo_emprego` e a variável `renda` revela claramente uma covariância positiva, evidenciada pela inclinação da linha de tendência.')
 
 
 st.markdown('''
@@ -293,7 +262,7 @@ with st.expander("Análise de relevância preditiva com variáveis booleanas", e
                   ax=axes[1])
     st.pyplot(plt)
 
-    st.markdown('Ao comparar os gráficos acima, nota-se que a variável `posse_de_veículo` apresenta maior relevância na predição de renda, evidenciada pela maior distância entre os intervalos de confiança para aqueles que possuem e não possuem veículo, ao contrário da variável `posse_de_imóvel` que não apresenta diferença significativa entre as possíveis condições de posse imobiliária.')
+    st.markdown('Ao contrastar os gráficos acima, é evidente que a variável `posse_de_veículo` é mais relevante na predição de renda, como indicado pela maior disparidade entre os intervalos de confiança para aqueles que possuem e não possuem veículo. Em contrapartida, a variável `posse_de_imóvel` não mostra diferença significativa entre as diferentes condições de posse imobiliária.')
 
 
 with st.expander("Análise das variáveis qualitativas ao longo do tempo", expanded=True):
@@ -355,7 +324,7 @@ st.markdown('''
 ''', unsafe_allow_html=True)
 
 
-st.markdown('A técnica escolhida foi o DecisionTreeRegressor, devido à sua capacidade de lidar com problemas de regressão, como a previsão de renda dos clientes. Além disso, árvores de decisão são fáceis de interpretar e permitem a identificação dos atributos mais relevantes para a previsão da variável-alvo, tornando-a uma boa escolha para o projeto.')
+st.markdown('Optamos pelo DecisionTreeRegressor como técnica, dada sua aptidão para lidar com problemas de regressão, como a previsão de renda dos clientes. Além disso, as árvores de decisão são de fácil interpretação e possibilitam a identificação dos atributos mais relevantes para a previsão da variável-alvo, o que a torna uma escolha sólida para o projeto.')
 
 
 st.markdown('''
@@ -448,8 +417,7 @@ st.markdown('''
 ## Etapa 6 Crisp-DM: Implantação <a name="6"></a>
 ''', unsafe_allow_html=True)
 
+st.markdown('Neste cenário foi desenvolvida uma calculadora simples para a simulação das condições de crédito, baseando-se em todo o entendimento que foi feito sobre este modelo ao longo da trajetória da analise.')
 
-st.markdown('[Simulando a previsão de renda](https://rhatiro-ebac-projeto02-previsao-renda.streamlit.app/~/+/Simulac%CC%A7a%CC%83o)')
-
-
+st.markdown('[Simulando a previsão de renda](http://localhost:8502/)')
 '---'
