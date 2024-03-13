@@ -1,86 +1,130 @@
-pip==24.0
-streamlit==1.31.1
 altair==5.2.0
 annotated-types==0.6.0
-anyio==4.3.0
-attrs==23.2.0
+asttokens==2.4.1
+attrs @ file:///C:/b/abs_35n0jusce8/croot/attrs_1695717880170/work
+backcall==0.2.0
+beautifulsoup4==4.12.3
+bleach==6.1.0
 blinker==1.7.0
+Bottleneck @ file:///C:/b/abs_f05kqh7yvj/croot/bottleneck_1707864273291/work
+Brotli @ file:///C:/ci_311/brotli-split_1676435766766/work
 cachetools==5.3.3
-certifi==2024.2.2
-charset-normalizer==3.3.2
+certifi @ file:///C:/b/abs_35d7n66oz9/croot/certifi_1707229248467/work/certifi
+cffi @ file:///C:/b/abs_924gv1kxzj/croot/cffi_1700254355075/work
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
 click==8.1.7
-colorama==0.4.6
-contourpy==1.2.0
-cycler==0.12.1
+colorama @ file:///C:/ci_311/colorama_1676422310965/work
+contourpy @ file:///C:/b/abs_853rfy8zse/croot/contourpy_1700583617587/work
+cryptography @ file:///C:/b/abs_531eqmhgsd/croot/cryptography_1707523768330/work
+cycler @ file:///tmp/build/80754af9/cycler_1637851556182/work
 dacite==1.8.1
-fastapi==0.110.0
-fonttools==4.49.0
+decorator==5.1.1
+defusedxml==0.7.1
+docopt==0.6.2
+executing==2.0.1
+fastjsonschema==2.19.1
+fonttools==4.25.0
 gitdb==4.0.11
 GitPython==3.1.42
-htmlmin==0.1.12
-idna==3.6
-ImageHash==4.3.1
+htmlmin @ file:///tmp/build/80754af9/htmlmin_1605825795554/work
+idna @ file:///C:/ci_311/idna_1676424932545/work
+ImageHash @ file:///C:/b/abs_5cw9y4odp1/croot/imagehash_1679418699403/work
 importlib-metadata==7.0.1
-Jinja2==3.1.3
+ipython==8.12.3
+jedi==0.19.1
+Jinja2 @ file:///C:/b/abs_f7x5a8op2h/croot/jinja2_1706733672594/work
 joblib==1.1.1
 jsonschema==4.21.1
 jsonschema-specifications==2023.12.1
-kiwisolver==1.4.5
+jupyter_client==8.6.1
+jupyter_core==5.7.2
+jupyterlab_pygments==0.3.0
+kiwisolver @ file:///C:/ci_311/kiwisolver_1676431979301/work
 llvmlite==0.41.1
 markdown-it-py==3.0.0
-MarkupSafe==2.1.5
-matplotlib==3.8.3
+MarkupSafe @ file:///C:/b/abs_ecfdqh67b_/croot/markupsafe_1704206030535/work
+matplotlib @ file:///C:/b/abs_e26vnvd5s1/croot/matplotlib-suite_1698692153288/work
+matplotlib-inline==0.1.6
 mdurl==0.1.2
 missingno==0.5.2
-multimethod==1.11.2
-networkx==3.2.1
+mistune==3.0.2
+mkl-fft @ file:///C:/b/abs_19i1y8ykas/croot/mkl_fft_1695058226480/work
+mkl-random @ file:///C:/b/abs_edwkj1_o69/croot/mkl_random_1695059866750/work
+mkl-service==2.4.0
+multimethod @ file:///C:/b/abs_edzd6tvn7_/croot/multimethod_1687531689410/work
+munkres==1.1.4
+nbclient==0.10.0
+nbconvert==7.16.2
+nbformat==5.10.2
+networkx @ file:///C:/b/abs_e6gi1go5op/croot/networkx_1690562046966/work
 numba==0.58.1
-numpy==1.25.2
-packaging==23.2
-pandas==2.2.1
-patsy==0.5.6
-phik==0.12.4
-pillow==10.2.0
+numexpr @ file:///C:/b/abs_5fucrty5dc/croot/numexpr_1696515448831/work
+numpy @ file:///C:/Users/dev-admin/mkl/numpy_and_numpy_base_1682981337988/work
+packaging @ file:///C:/b/abs_28t5mcoltc/croot/packaging_1693575224052/work
+pandas @ file:///C:/ci_311_rebuilds/pandas_1679004481142/work
+pandas-profiling==3.2.0
+pandocfilters==1.5.1
+parso==0.8.3
+patsy==0.5.3
+phik @ file:///C:/ci_311/phik_1677727806544/work
+pickleshare==0.7.5
+pillow @ file:///C:/b/abs_e22m71t0cb/croot/pillow_1707233126420/work
+pipreqs==0.5.0
+platformdirs==4.2.0
+prompt-toolkit==3.0.43
 protobuf==4.25.3
+pure-eval==0.2.2
 pyarrow==15.0.0
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
 pydantic==2.6.3
 pydantic_core==2.16.3
 pydeck==0.8.1b0
 Pygments==2.17.2
-pyparsing==3.1.1
-python-dateutil==2.8.2
-pytz==2024.1
-PyWavelets==1.5.0
-PyYAML==6.0.1
+pyOpenSSL @ file:///C:/b/abs_baj0aupznq/croot/pyopenssl_1708380486701/work
+pyparsing @ file:///C:/ci_311/pyparsing_1678502182533/work
+PySocks @ file:///C:/ci_311/pysocks_1676425991111/work
+python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+pytz @ file:///C:/b/abs_19q3ljkez4/croot/pytz_1695131651401/work
+pywavelets @ file:///C:/b/abs_7est386xsb/croot/pywavelets_1705049855879/work
+pywin32==306
+PyYAML @ file:///C:/b/abs_782o3mbw7z/croot/pyyaml_1698096085010/work
+pyzmq==25.1.2
 referencing==0.33.0
-requests==2.31.0
+requests @ file:///C:/ci_311/requests_1679434043851/work
 rich==13.7.1
 rpds-py==0.18.0
 scikit-learn==1.4.1.post1
-scipy==1.11.4
-seaborn==0.12.2
-six==1.16.0
+scipy==1.9.3
+seaborn @ file:///C:/ci_311/seaborn_1676446547861/work
+six @ file:///tmp/build/80754af9/six_1644875935023/work
 smmap==5.0.1
-sniffio==1.3.1
-starlette==0.36.3
-statsmodels==0.14.1
-streamlit==1.31.1
+soupsieve==2.5
+stack-data==0.6.3
+statsmodels @ file:///C:/ci_311/statsmodels_1677728225600/work
+streamlit==1.32.1
 streamlit-pandas-profiling==0.1.3
-tangled-up-in-unicode==0.2.0
+streamlit-ydata-profiling==0.2.1
+tangled-up-in-unicode @ file:///C:/ci_311/tangled-up-in-unicode_1676446801857/work
 tenacity==8.2.3
 threadpoolctl==3.3.0
+tinycss2==1.2.1
 toml==0.10.2
 toolz==0.12.1
 tornado==6.4
-tqdm==4.66.2
+tqdm @ file:///C:/ci_311_rebuilds/tqdm_1679013068529/work
+traitlets==5.14.2
 typeguard==4.1.5
 typing_extensions==4.10.0
 tzdata==2024.1
 tzlocal==5.2
-urllib3==2.2.1
+urllib3 @ file:///C:/b/abs_9cmlsrm3ys/croot/urllib3_1698257595508/work
 validators==0.22.0
 visions==0.7.5
-watchdog==4.0.0
+watchdog==3.0.0
+wcwidth==0.2.13
+webencodings==0.5.1
+win-inet-pton @ file:///C:/ci_311/win_inet_pton_1676425458225/work
 wordcloud==1.9.3
+yarg==0.1.9
 ydata-profiling==4.6.5
 zipp==3.17.0
