@@ -31,20 +31,16 @@ def multiselect_filter(data: pd.DataFrame,
 def main():
     st.set_page_config(
         page_title="EBAC | Módulo 19 | Streamlit II | Exercício 1",
-        page_icon="https://raw.githubusercontent.com/rhatiro/Curso_EBAC-Profissao_Cientista_de_Dados/main/Mo%CC%81dulo_19_-_Streamlit_II/Exerci%CC%81cio_1/img/telmarketing_icon.png",
+        page_icon="https://raw.githubusercontent.com/raafarosa/Ebac_Data_Scientist_General/main/Module%2019%20-%20Streamlit%20II/Practice%201/img/telmarketing_icon.png",
         layout="wide",
         initial_sidebar_state="expanded",
     )
 
-    # SIDEBAR
-    image = Image.open(fp='Módulo_19_-_Streamlit_II/Exercício_1/img/Bank-Branding.jpg')
-    st.sidebar.image(image=image)
-
     # TÍTULO
     st.markdown('''
     <div style="text-align:center">
-        <a href="https://github.com/rhatiro/Curso_EBAC-Profissao_Cientista_de_Dados">
-            <img src="https://raw.githubusercontent.com/rhatiro/Curso_EBAC-Profissao_Cientista_de_Dados/main/ebac-course-utils/media/logo/ebac_logo-data_science.png" alt="ebac_logo-data_science" width=100%>
+        <a href="https://github.com/raafarosa/Ebac_Data_Scientist_General/tree/main/Module%2019%20-%20Streamlit%20II/Practice%201">
+            <img src="https://raw.githubusercontent.com/raafarosa/Ebac_Data_Scientist_General/main/utilities/newebac_logo_black_half.png" alt="ebac_logo-data_science" width=100%>
         </a>
     </div> 
 
@@ -53,10 +49,9 @@ def main():
     <!-- # **Profissão: Cientista de Dados** -->
     ### **Módulo 19** | Streamlit II | Exercício 1
 
-    **Aluno:** [Roberto Hatiro Nishiyama](https://www.linkedin.com/in/rhatiro/)<br>
-    **Data:** 4 de maio de 2023.
-
-    ---
+    **Por:** [Rafael Rosa Alves](https://www.linkedin.com/in/rafael-rosa-alves/)<br>
+  
+      ---
     ''', unsafe_allow_html=True)
 
     st.write('# Telemarketing analysis')
@@ -65,7 +60,7 @@ def main():
     start = timeit.default_timer()
 
     bank_raw = load_data(
-        file_data='https://raw.githubusercontent.com/rhatiro/Curso_EBAC-Profissao_Cientista_de_Dados/main/Mo%CC%81dulo_19_-_Streamlit_II/Exerci%CC%81cio_1/data/input/bank-additional-full.csv', sep=';')
+        file_data='https://raw.githubusercontent.com/raafarosa/Ebac_Data_Scientist_General/main/Module%2019%20-%20Streamlit%20II/Practice%201/data/input/bank-additional-full.csv', sep=';')
     bank = bank_raw.copy()
 
     st.write('Time:', timeit.default_timer() - start)
