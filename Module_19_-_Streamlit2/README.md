@@ -4,4 +4,4 @@
 > [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=Streamlit&logoColor=white)](https://md19-practice-1.streamlit.app/)
 
 # Exercício 2
-> [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=Streamlit&logoColor=white)](https://md19-practice-1.streamlit.app/)
+> [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=Streamlit&logoColor=white)](https://md19-practice-2.streamlit.app/)
