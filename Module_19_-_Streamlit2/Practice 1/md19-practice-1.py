@@ -39,7 +39,7 @@ def main():
     # TÍTULO
     st.markdown('''
     <div style="text-align:center">
-        <a href="https://github.com/raafarosa/Ebac_Data_Scientist_General/tree/main/Module%2019%20-%20Streamlit%20II/Practice%201">
+        <a href="https://github.com/raafarosa/Ebac_Data_Scientist_General/tree/main/Module_19_-_Streamlit2">
             <img src="https://raw.githubusercontent.com/raafarosa/Ebac_Data_Scientist_General/main/utilities/newebac_logo_black_half.png" alt="ebac_logo-data_science" width=100%>
         </a>
     </div> 
