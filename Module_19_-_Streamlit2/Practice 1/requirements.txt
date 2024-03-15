@@ -1,4 +1,4 @@
-streamlib=24.0
+pip=24.0
 annotated-types==0.6.0
 attrs==23.2.0
 blinker==1.7.0
