@@ -31,7 +31,7 @@ def multiselect_filter(data: pd.DataFrame,
 def main():
     st.set_page_config(
         page_title="EBAC | Módulo 19 | Streamlit II | Exercício 1",
-        page_icon="https://raw.githubusercontent.com/raafarosa/Ebac_Data_Scientist_General/main/Module%2019%20-%20Streamlit%20II/Practice%201/img/telmarketing_icon.png",
+        page_icon="https://raw.githubusercontent.com/raafarosa/Ebac_Data_Scientist_General/main/Module_19_-_Streamlit2/Practice%201/img/telmarketing_icon.png",
         layout="wide",
         initial_sidebar_state="expanded",
     )
@@ -60,7 +60,7 @@ def main():
     start = timeit.default_timer()
 
     bank_raw = load_data(
-        file_data='https://raw.githubusercontent.com/raafarosa/Ebac_Data_Scientist_General/main/Module%2019%20-%20Streamlit%20II/Practice%201/data/input/bank-additional-full.csv', sep=';')
+        file_data='https://raw.githubusercontent.com/raafarosa/Ebac_Data_Scientist_General/main/Module_19_-_Streamlit2/Practice%201/data/input/bank-additional-full.csv', sep=';')
     bank = bank_raw.copy()
 
     st.write('Time:', timeit.default_timer() - start)
