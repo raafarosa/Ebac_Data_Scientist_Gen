@@ -83,7 +83,7 @@ def main():
     # image = Image.open(fp='Módulo_19_-_Streamlit_II/Exercício_1/img/Bank-Branding.jpg')
     # st.sidebar.image(image=image)
     st.sidebar.markdown(
-        body='<img src="https://raw.githubusercontent.com/rhatiro/Curso_EBAC-Profissao_Cientista_de_Dados/main/Mo%CC%81dulo_19_-_Streamlit_II/Exerci%CC%81cio_1/img/Bank-Branding.jpg" width=100%>',
+        body='<img src="https://raw.githubusercontent.com/raafarosa/Ebac_Data_Scientist_General/main/Module_19_-_Streamlit2/Practice%201/img/Bank-Branding.jpg" width=100%>',
         unsafe_allow_html=True,
     )
 
