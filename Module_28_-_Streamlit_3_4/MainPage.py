@@ -58,7 +58,7 @@ def main():
     
     # Apresenta a imagem na barra lateral da aplicação
     st.sidebar.markdown(
-        body='<img src="https://raw.githubusercontent.com/raafarosa/Ebac_Data_Scientist_General/main/Module_19_-_Streamlit2/Practice_1/img/Bank-Branding.png" width=100%>',
+        body='<img src="https://raw.githubusercontent.com/raafarosa/Ebac_Data_Scientist_General/main/Module_28_-_Streamlit_3_4/telmarketing_icon.png" width=100%>',
         unsafe_allow_html=True,
     )
 
