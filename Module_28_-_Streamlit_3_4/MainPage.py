@@ -57,9 +57,11 @@ def main():
     st.write('# Telemarketing analisys')
     st.markdown("---")
     
-    # Apresenta a imagem na barra lateral da aplicação
-    image = Image.open("Bank-Branding.jpg")
-    st.sidebar.image(image)
+    # SIDEBAR
+    st.sidebar.markdown(
+        body='<img src="https://raw.githubusercontent.com/raafarosa/Ebac_Data_Scientist_General/main/Module_28_-_Streamlit_3_4/img/Bank-Branding.png" width=100%>',
+        unsafe_allow_html=True,
+    )
 
     # Botão para carregar arquivo na aplicação
     st.sidebar.write("## Suba o arquivo")
