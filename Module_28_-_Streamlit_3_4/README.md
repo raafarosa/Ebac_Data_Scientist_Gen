@@ -22,7 +22,7 @@ Pagina para analise de dados de um time de telemarketing, com a possibilidade de
 ## Autor
 
 Rafael Rosa<br>
-[@raafarosa](https://www.linkedin.com/in/rafael-rosa-alves/)
+[Linkedin](https://www.linkedin.com/in/rafael-rosa-alves/)
 
 ---
 
