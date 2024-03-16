@@ -66,7 +66,7 @@ def main():
     start = timeit.default_timer()
 
     bank_raw = load_data(
-        file_data='https://raw.githubusercontent.com/raafarosa/Ebac_Data_Scientist_General/main/Module_19_-_Streamlit2/Practice%201/data/input/bank-additional-full.csv', sep=';')
+        file_data='https://raw.githubusercontent.com/raafarosa/Ebac_Data_Scientist_General/main/Module_19_-_Streamlit2/Practice_1/data/input/bank-additional-full.csv', sep=';')
     bank = bank_raw.copy()
 
     st.write('Time:', timeit.default_timer() - start)
