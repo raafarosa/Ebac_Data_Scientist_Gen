@@ -57,7 +57,7 @@ def main():
     st.markdown("---")
     
     # Apresenta a imagem na barra lateral da aplicação
-    image = Image.open("Bank-Branding.jpg")
+    image = Image.open("Bank-Branding.png")
     st.sidebar.image(image)
 
     # Botão para carregar arquivo na aplicação
@@ -222,3 +222,12 @@ def main():
 
 if __name__ == '__main__':
 	main()
+    
+
+
+
+
+
+
+
+
