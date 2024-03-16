@@ -2,6 +2,7 @@
 
 # Exercício 1
 > [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=Streamlit&logoColor=white)](https://md19-practice-1.streamlit.app/)
+> [![Github](https://img.shields.io/badge/Streamlit-FF4B4B?logo=Streamlit&logoColor=white)](https://github.com/raafarosa/Ebac_Data_Scientist_General/tree/main/Module_19_-_Streamlit2/Practice_1)
 
 # Exercício 2
 > [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=Streamlit&logoColor=white)](https://md19-practice-2.streamlit.app/)
