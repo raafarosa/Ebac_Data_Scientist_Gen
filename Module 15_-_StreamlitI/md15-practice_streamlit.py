@@ -125,7 +125,7 @@ option = st.selectbox(
 '---'
 
 # 07
-st.sidebar.title('Layout')
+st.sidebar.title('Welcome for my study page 😊')
 # Add a selectbox to the sidebar:
 add_selectbox = st.sidebar.selectbox(
     'How would you like to be contacted?',
@@ -137,7 +137,7 @@ add_slider = st.sidebar.slider(
     0.0, 100.0, (25.0, 75.0)
 )
 
-st.title('Layout')
+st.title('Chose your house ✨')
 left_column, right_column = st.columns(2)
 # You can use a column just like st.sidebar:
 left_column.button('Press me!')
