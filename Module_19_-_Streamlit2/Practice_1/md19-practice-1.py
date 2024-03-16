@@ -36,6 +36,13 @@ def main():
         initial_sidebar_state="expanded",
     )
 
+    # SIDEBAR
+    # st.sidebar.image(image=image)
+    st.sidebar.markdown(
+        body='<img src="https://raw.githubusercontent.com/raafarosa/Ebac_Data_Scientist_General/main/Module_19_-_Streamlit2/Practice%201/img/Bank-Branding.png" width=100%>',
+        unsafe_allow_html=True,
+    )
+
     # TÍTULO
     st.markdown('''
     <div style="text-align:center">
