@@ -1,3 +1,4 @@
+
 # Imports
 import pandas            as pd
 import streamlit         as st
@@ -12,7 +13,7 @@ sns.set_theme(style="ticks", rc=custom_params)
 
 
 # Função para ler os dados
-@st.cache(show_spinner= True, allow_output_mutation=True)
+@st.cache_data
 def load_data(file_data):
     try:
         return pd.read_csv(file_data, sep=';')
@@ -20,7 +21,7 @@ def load_data(file_data):
         return pd.read_excel(file_data)
 
 # Função para filtrar baseado na multiseleção de categorias
-@st.cache(allow_output_mutation=True)
+@st.cache_data
 def multiselect_filter(relatorio, col, selecionados):
     if 'all' in selecionados:
         return relatorio
@@ -28,17 +29,17 @@ def multiselect_filter(relatorio, col, selecionados):
         return relatorio[relatorio[col].isin(selecionados)].reset_index(drop=True)
 
 # Função para converter o df para csv
-@st.cache
+@st.cache_data
 def convert_df(df):
     return df.to_csv(index=False).encode('utf-8')
 
 # Função para converter o df para excel
-@st.cache
+@st.cache_data
 def to_excel(df):
     output = BytesIO()
     writer = pd.ExcelWriter(output, engine='xlsxwriter')
     df.to_excel(writer, index=False, sheet_name='Sheet1')
-    writer.close()
+    writer.save()
     processed_data = output.getvalue()
     return processed_data
 
@@ -46,14 +47,14 @@ def to_excel(df):
 # Função principal da aplicação
 def main():
     # Configuração inicial da página da aplicação
-    st.set_page_config(page_title = 'Telemarketings', \
+    st.set_page_config(page_title = 'Telemarketing analisys', \
         page_icon = 'telmarketing_icon.png',
         layout="wide",
         initial_sidebar_state='expanded'
     )
 
     # Título principal da aplicação
-    st.write('# Análise dos dados de Telemarketing')
+    st.write('# Telemarketing analisys')
     st.markdown("---")
     
     # Apresenta a imagem na barra lateral da aplicação
@@ -62,7 +63,7 @@ def main():
 
     # Botão para carregar arquivo na aplicação
     st.sidebar.write("## Suba o arquivo")
-    data_file_1 = st.sidebar.file_uploader("Dados de marketing", type = ['csv','xlsx'])
+    data_file_1 = st.sidebar.file_uploader("Bank marketing data", type = ['csv','xlsx'])
 
     # Verifica se há conteúdo carregado na aplicação
     if (data_file_1 is not None):
@@ -222,3 +223,12 @@ def main():
 
 if __name__ == '__main__':
 	main()
+    
+
+
+
+
+
+
+
+
