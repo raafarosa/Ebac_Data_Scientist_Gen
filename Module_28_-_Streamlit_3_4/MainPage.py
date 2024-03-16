@@ -45,11 +45,11 @@ def to_excel(df):
 
 # Função principal da aplicação
 def main():
-    # Configuração inicial da página da aplicação
-    st.set_page_config(page_title = 'Telemarketing analisys', \
-        page_icon = 'telmarketing_icon.png',
+    st.set_page_config(
+        page_title="EBAC | Módulo 19 | Streamlit II | Exercício 1",
+        page_icon="https://raw.githubusercontent.com/raafarosa/Ebac_Data_Scientist_General/main/Module_28_-_Streamlit_3_4/img/telmarketing_icon.png",
         layout="wide",
-        initial_sidebar_state='expanded'
+        initial_sidebar_state="expanded",
     )
 
     # Título principal da aplicação
