@@ -6,7 +6,7 @@
 
 
 # Exercício 2
-> [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=Streamlit&logoColor=white)](https://md19-practice-2.streamlit.app/)
+> [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=Streamlit&logoColor=white)](https://md19-practice-2.streamlit.app/)<br>
 > (https://github.com/raafarosa/Ebac_Data_Scientist_General/tree/main/Module_19_-_Streamlit2/Practice_2)
 
 
