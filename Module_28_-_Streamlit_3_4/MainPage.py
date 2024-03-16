@@ -45,11 +45,11 @@ def to_excel(df):
 
 # Função principal da aplicação
 def main():
-    # Configuração inicial da página da aplicação
-    st.set_page_config(page_title = 'Telemarketing analisys', \
-        page_icon = 'telmarketing_icon.png',
+    st.set_page_config(
+        page_title="EBAC | Módulo 19 | Streamlit II | Exercício 2",
+        page_icon="https://raw.githubusercontent.com/raafarosa/Ebac_Data_Scientist_General/main/Module_19_-_Streamlit2/Practice%201/img/telmarketing_icon.png",
         layout="wide",
-        initial_sidebar_state='expanded'
+        initial_sidebar_state="expanded",
     )
 
     # Título principal da aplicação
@@ -57,7 +57,10 @@ def main():
     st.markdown("---")
     
     # Apresenta a imagem na barra lateral da aplicação
-
+    st.sidebar.markdown(
+        body='<img src="https://raw.githubusercontent.com/raafarosa/Ebac_Data_Scientist_General/main/Module_19_-_Streamlit2/Practice_1/img/Bank-Branding.png" width=100%>',
+        unsafe_allow_html=True,
+    )
 
     # Botão para carregar arquivo na aplicação
     st.sidebar.write("## Suba o arquivo")
