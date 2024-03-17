@@ -85,7 +85,7 @@ def main():
     )
 
     # Título principal da aplicação
-    st.write("""# RFVa
+    st.write("""# RFV
 
 RFV, abreviação de recência, frequência e valor, é uma técnica empregada na segmentação de clientes com base em seus padrões de compra, agrupando-os em clusters similares. Este método de agrupamento possibilita a implementação de ações de marketing e CRM mais direcionadas, contribuindo para a personalização do conteúdo e aprimorando a retenção de clientes.
 
