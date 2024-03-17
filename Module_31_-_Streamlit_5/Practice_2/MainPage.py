@@ -64,8 +64,8 @@ def dn(color_threshold: float, num_groups: int, Z: list) -> None:
 def main():
     # Configuração inicial da página da aplicação
     st.set_page_config(
-        page_title="EBAC | Módulo 31 | Projeto de Agrupamento hierárquico",
-        page_icon='https://raw.githubusercontent.com/rhatiro/Curso_EBAC-Profissao_Cientista_de_Dados/main/ebac-course-utils/media/icon/favicon.ico', 
+        page_title="EBAC | Module 31 | Practice 2",
+        page_icon='https://raw.githubusercontent.com/raafarosa/Ebac_Data_Scientist_General/main/utilities/regular_ebac-logo.ico', 
         layout="wide",
         initial_sidebar_state="expanded",
     )
@@ -73,15 +73,14 @@ def main():
 
     st.sidebar.markdown('''
                         <div style="text-align:center">
-                            <img src="https://raw.githubusercontent.com/rhatiro/previsao-renda/main/ebac-course-utils/media/logo/newebac_logo_black_half.png" alt="ebac-logo" width=50%>
+                            <img src="https://raw.githubusercontent.com/raafarosa/Ebac_Data_Scientist_General/main/utilities/newebac_logo_black_half.png alt="ebac-logo" width=50%>
                         </div>
 
                         # **Profissão: Cientista de Dados**
                         ### **Projeto de Agrupamento Hierárquico**
 
-                        **Por:** [Roberto Hatiro Nishiyama](https://www.linkedin.com/in/rhatiro/)<br>
-                        **Data:** 30 de novembro de 2023.<br>
-
+                        **Por:** [Rafael Rosa](https://www.linkedin.com/in/rafael-rosa-alves/)<br>
+                        
                         ---
                         ''', unsafe_allow_html=True)
     
@@ -140,22 +139,21 @@ def main():
 
     st.sidebar.markdown('''
                         ---
-                        *Baseado no [Exercício 2](https://github.com/rhatiro/Curso_EBAC-Profissao_Cientista_de_Dados/blob/main/Mo%CC%81dulo%2030%20-%20Hiera%CC%81rquicos%20%3A%20aglomerativos/Exerci%CC%81cio%202/mod30_tarefa02-roberto_hatiro.ipynb) do [Módulo 30](https://github.com/rhatiro/Curso_EBAC-Profissao_Cientista_de_Dados/tree/main/Mo%CC%81dulo%2030%20-%20Hiera%CC%81rquicos%20%3A%20aglomerativos).*
+                        *Baseado no [Exercício 2](https://github.com/raafarosa/Ebac_Data_Scientist_General/tree/main/Module%2030%20-%20Hier%C3%A1rquicos%20aglomerativos/Practice%202) do [Módulo 30](https://github.com/raafarosa/Ebac_Data_Scientist_General/tree/main/Module%2030%20-%20Hier%C3%A1rquicos%20aglomerativos).*
                         ''')
 
 
     st.markdown('''
                 <div style="text-align:center">
-                    <img src="https://raw.githubusercontent.com/rhatiro/Curso_EBAC-Profissao_Cientista_de_Dados/main/ebac-course-utils/media/logo/ebac_logo-data_science.png" alt="ebac_logo-data_science" width="100%">
+                    <img src="https://raw.githubusercontent.com/raafarosa/Ebac_Data_Scientist_General/main/utilities/newebac_logo_black_half.png" alt="ebac_logo-data_science" width="100%">
                 </div>
 
                 ---
 
                 <!-- # **Profissão: Cientista de Dados** -->
-                ### **Módulo 31** | Streamlit V (Exercício 2)
+                ### **Module 31** | Streamlit V (Practice 2)
 
-                **Aluno:** [Roberto Hatiro Nishiyama](https://www.linkedin.com/in/rhatiro/)<br>
-                **Data:** 30 de novembro de 2023.
+                **Por:** [Rafael Rosa](https://www.linkedin.com/in/rafael-rosa-alves/)<br>
 
                 ---
                 ''', unsafe_allow_html=True)
