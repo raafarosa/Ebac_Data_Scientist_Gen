@@ -127,11 +127,13 @@ def main():
 
                 # Agrupamento hierárquico
 
-                    Neste projeto, empregou-se a base de dados "Online Shoppers Purchasing Intention Dataset" de Sakar, C.O., Polat, S.O., Katircioglu,                     M. et al., como fonte principal. Esta base compreende registros de 12.330 sessões de acesso a páginas da web, sendo cada sessão                     atribuída a um único usuário ao longo de um período de 12 meses. O propósito é analisar a interação entre o design das páginas e o                  perfil do cliente.
-                    
-                    O questionamento central é: "Clientes com diferentes padrões de navegação demonstram propensões de compra distintas?"
-                    
-                    O objetivo primordial consiste em agrupar as sessões de acesso ao portal, levando em consideração diversos aspectos comportamentais                     dos usuários e informações temporais, como a proximidade de datas especiais, a ocorrência de fins de semana e os meses do ano.
+                Neste projeto foi utilizada a base [online shoppers purchase intention](https://archive.ics.uci.edu/ml/datasets/Online+Shoppers+Purchasing+Intention+Dataset) de Sakar, C.O., Polat, S.O., Katircioglu, M. et al. Neural Comput & Applic (2018). [Web Link](https://doi.org/10.1007/s00521-018-3523-0).
+
+                A base trata de registros de 12.330 sessões de acesso a páginas, cada sessão sendo de um único usuário em um período de 12 meses, para posteriormente relacionar o design da página e o perfil do cliente.
+                
+                ***"Será que clientes com comportamento de navegação diferentes possuem propensão a compra diferente?"***
+
+                O objetivo é agrupar as sessões de acesso ao portal considerando o comportamento de acesso e informações da data, como a proximidade a uma data especial, fim de semana e o mês.
 
                 |Variável                |Descrição                                                                                                                      |Atributo   | 
                 | :--------------------- |:----------------------------------------------------------------------------------------------------------------------------  | --------: | 
