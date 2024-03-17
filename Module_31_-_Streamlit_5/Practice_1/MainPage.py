@@ -85,19 +85,17 @@ def main():
     )
 
     # Título principal da aplicação
-    st.write("""# RFV
+    st.write("""# RFVa
 
-    RFV significa recência, frequência, valor e é utilizado para segmentação de clientes baseado no comportamento 
-    de compras dos clientes e agrupa eles em clusters parecidos. Utilizando esse tipo de agrupamento podemos realizar 
-    ações de marketing e CRM melhores direcionadas, ajudando assim na personalização do conteúdo e até a retenção de clientes.
+RFV, abreviação de recência, frequência e valor, é uma técnica empregada na segmentação de clientes com base em seus padrões de compra, agrupando-os em clusters similares. Este método de agrupamento possibilita a implementação de ações de marketing e CRM mais direcionadas, contribuindo para a personalização do conteúdo e aprimorando a retenção de clientes.
 
-    Para cada cliente é preciso calcular cada uma das componentes abaixo:
+Para cada cliente, é essencial calcular as seguintes métricas:
 
-    - Recência (R): Quantidade de dias desde a última compra.
-    - Frequência (F): Quantidade total de compras no período.
-    - Valor (V): Total de dinheiro gasto nas compras do período.
+- Recência (R): Representa o intervalo de tempo decorrido desde a última compra realizada.
+- Frequência (F): Indica o número total de compras efetuadas durante o período analisado.
+- Valor (V): Refere-se ao montante total gasto em compras ao longo do período.
 
-    E é isso que iremos fazer abaixo.
+A seguir, será realizado o cálculo dessas métricas para cada cliente.
     """)
     st.markdown("---")
     
@@ -157,7 +155,7 @@ def main():
         st.write(df_RFV.head())
 
         st.write('## Segmentação utilizando o RFV')
-        st.write("Um jeito de segmentar os clientes é criando quartis para cada componente do RFV, sendo que o melhor quartil é chamado de 'A', o segundo melhor quartil de 'B', o terceiro melhor de 'C' e o pior de 'D'. O melhor e o pior depende da componente. Po exemplo, quanto menor a recência melhor é o cliente (pois ele comprou com a gente tem pouco tempo) logo o menor quartil seria classificado como 'A', já pra componente frêquencia a lógica se inverte, ou seja, quanto maior a frêquencia do cliente comprar com a gente, melhor ele/a é, logo, o maior quartil recebe a letra 'A'.")
+        st.write("Uma abordagem para segmentar os clientes envolve a criação de quartis para cada componente do RFV, onde o quartil mais alto é designado como 'A', o segundo melhor quartil como 'B', o terceiro melhor como 'C' e o pior quartil como 'D'. A classificação de melhor e pior depende da natureza da componente. Por exemplo, para a recência, quanto menor o intervalo desde a última compra, melhor é o cliente (pois comprou recentemente), portanto, o quartil mais baixo seria rotulado como 'A'. Já para a frequência, a lógica é invertida; ou seja, quanto maior a frequência de compras do cliente, melhor ele é considerado, então, o quartil mais alto recebe a designação 'A'.")
         st.write('Se a gente tiver interessado em mais ou menos classes, basta a gente aumentar ou diminuir o número de quantils pra cada componente.')
 
         st.write('Quartis para o RFV')
