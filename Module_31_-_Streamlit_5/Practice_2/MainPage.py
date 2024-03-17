@@ -85,39 +85,6 @@ def main():
                         ''', unsafe_allow_html=True)
     
 
-    with st.sidebar.expander(label="Índice", expanded=False):
-        st.markdown('''
-                    - [Entendimento do negócio](#intro)
-                    - [Visualização dos dados](#visualizacao)
-                        > - [Carregamento e leitura do arquivo csv](#read_csv)
-                        > - [Contagem de valores da coluna Revenue](#value_counts)
-                        > - [Representação gráfica da contagem](#countplot)
-                    - [Análise descritiva](#descritiva)
-                        > - [Estrutura do dataFrame](#info)
-                        > - [Resumo estatístico para variáveis numéricas](#describe)
-                        > - [Correlação entre variáveis](#corr)
-                    - [Feature selection](#feature_selection)
-                        > - [Padrão de navegação na sessão](#session_navigation_pattern)
-                        > - [Características temporais](#temporal_indicators)
-                        > - [Seleção de variáveis numéricas e categóricas](#cat_selection)
-                        > - [Variáveis categóricas e seus valores únicos](#unique)
-                    - [Processamento de Variáveis Dummy: Identificação categórica e análise dos tipos de dados](#dummy)
-                    - [Agrupamentos hierárquicos](#agrupamento)
-                        > - [Cálculo da matriz de distância Gower](#gower)
-                        > - [Cálculo da matriz de ligação a partir da vetorização da distância Gower](#linkage)
-                        > - [Dendrogramas para diferentes números de grupos](#dendrogram)
-                    - [Construção, avaliação e análise dos grupos](#grupos)
-                        > - [Agrupamento e resultados para 3 grupos](#grupo_3)
-                        >> - [Distribuição percentual com tabela cruzada](#crosstab3perc)
-                        >> - [Tabela cruzada percentual com renomeação](#crosstab3rename)
-                        > - [Agrupamento e resultados para 4 grupos](#grupo_4)
-                        >> - [Distribuição percentual com tabela cruzada](#crosstab4perc)
-                        >> - [Tabela cruzada percentual com renomeação](#crosstab4rename)
-                        > - [Pair Plot final](#pairplot)
-                    - [Conclusão](#final)
-                    ''', unsafe_allow_html=True)
-
-
     with st.sidebar.expander(label="Bibliotecas/Pacotes", expanded=False):
         st.code('''
                 import streamlit             as st
