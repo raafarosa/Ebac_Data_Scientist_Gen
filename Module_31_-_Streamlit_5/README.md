@@ -1,7 +1,7 @@
 [![](https://raw.githubusercontent.com/raafarosa/Ebac_Data_Scientist_General/main/utilities/newebac_logo_black_half.png)](https://github.com/raafarosa/Ebac_Data_Scientist_General)
 ---
 
-# Projeto 30 - Stream lit 5
+# Projeto 30 - Streamlit 5
 
 **Por:** [Rafael Rosa](https://www.linkedin.com/in/rafael-rosa-alves/)<br>
 
