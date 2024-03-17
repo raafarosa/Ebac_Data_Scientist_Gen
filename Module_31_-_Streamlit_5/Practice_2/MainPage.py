@@ -174,7 +174,7 @@ def main():
     with st.echo():
         ""
         # Ler o arquivo CSV 'online_shoppers_intention.csv' e armazenar os dados em um DataFrame chamado df
-        df = pd.read_csv('https://raw.githubusercontent.com/rhatiro/Curso_EBAC-Profissao_Cientista_de_Dados/main/Modulo_31_-_Streamlit_V/Exercicio_2/online_shoppers_intention.csv')
+        df = pd.read_csv('https://raw.githubusercontent.com/raafarosa/Ebac_Data_Scientist_General/main/Module_31_-_Streamlit_5/Practice_2/online_shoppers_intention.csv')
 
         # Exibir o DataFrame df, mostrando os dados carregados do arquivo CSV
         st.dataframe(df)
@@ -501,7 +501,7 @@ def main():
     st.markdown('''
                 ## Conclusão
 
-                Na análise dos resultados do agrupamento hierárquico, destaca-se a relevância da abordagem centrada nas categorias de tipos de visitantes. Especificamente, ao agrupar em três categorias, o grupo `1 (Returning_Visitor)`, composto por visitantes recorrentes, sobressai ao apresentar a maior propensão à realização de compras. Essa conclusão é sustentada pela análise das relações entre as variáveis de navegação e as características temporais, que resultaram na formação de categorias distintas para os visitantes. Esse insight proporciona uma visão valiosa sobre o comportamento dos visitantes, permitindo a implementação de estratégias direcionadas para diferentes segmentos. Dessa forma, é possível otimizar a experiência do usuário e a eficácia das estratégias de marketing.
+                Ao analisar os resultados do agrupamento hierárquico, destaca-se a importância da abordagem focada nas categorias de tipos de visitantes. Em particular, ao dividir os visitantes em três categorias, o grupo "1 (Returning_Visitor)", composto por visitantes recorrentes, se destaca ao exibir a maior inclinação para efetuar compras. Esta conclusão é corroborada pela análise das relações entre as variáveis de navegação e as características temporais, resultando na identificação de categorias distintas para os visitantes. Este insight oferece uma perspectiva valiosa sobre o comportamento dos visitantes, possibilitando a implementação de estratégias direcionadas para diferentes segmentos. Desta forma, torna-se viável otimizar tanto a experiência do usuário quanto a efetividade das estratégias de marketing.
                 
                 ---
                 <a name="final"></a>
