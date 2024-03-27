@@ -1,3 +1,4 @@
+
 # Imports
 import pandas            as pd
 import streamlit         as st
@@ -9,12 +10,11 @@ from pycaret.classification import load_model, predict_model
 def main():
     # Configuração inicial da página da aplicação
     st.set_page_config(
-        page_title="EBAC | Module 31 | Practice 2",
+        page_title="EBAC | Module 38",
         page_icon='https://raw.githubusercontent.com/raafarosa/Ebac_Data_Scientist_General/main/utilities/regular_ebac-logo.ico', 
         layout="wide",
         initial_sidebar_state="expanded",
     )
-
 
     st.sidebar.markdown('''
                         # **Profissão: Cientista de Dados**
@@ -25,33 +25,14 @@ def main():
                         ---
                         ''', unsafe_allow_html=True)
 
-    
-
     with st.sidebar.expander(label="Bibliotecas/Pacotes", expanded=False):
         st.code('''
-                import streamlit             as st
-                import io
+                import pandas            as pd
+                import streamlit         as st
 
-                import numpy                 as np
-                import pandas                as pd
-                import matplotlib.pyplot     as plt
-                import seaborn               as sns
-
-                from gower                   import gower_matrix
-
-                from scipy.spatial.distance  import squareform
-                from scipy.cluster.hierarchy import linkage
-                from scipy.cluster.hierarchy import dendrogram
-                from scipy.cluster.hierarchy import fcluster
+                from io                     import BytesIO
+                from pycaret.classification import load_model, predict_model
                 ''', language='python')
-
-        
-
-    st.sidebar.markdown('''
-                        ---
-                        *Baseado no [Exercício 2](https://github.com/raafarosa/Ebac_Data_Scientist_General/tree/main/Module%2030%20-%20Hier%C3%A1rquicos%20aglomerativos/Practice%202) do [Módulo 30](https://github.com/raafarosa/Ebac_Data_Scientist_General/tree/main/Module%2030%20-%20Hier%C3%A1rquicos%20aglomerativos).*
-                        ''')
-
 
     st.markdown('''
                 <div style="text-align:center">
@@ -61,7 +42,7 @@ def main():
                 ---
 
                 <!-- # **Profissão: Cientista de Dados** -->
-                ### **Module 31** | Streamlit V (Practice 2)
+                ### **Module 38**
 
                 **Por:** [Rafael Rosa](https://www.linkedin.com/in/rafael-rosa-alves/)<br>
 
@@ -82,14 +63,6 @@ def to_excel(df):
     processed_data = output.getvalue()
     return processed_data
 
-
-# Função principal da aplicação
-def main():
-    # Configuração inicial da página da aplicação
-    st.set_page_config(page_title = 'PyCaret', \
-        layout="wide",
-        initial_sidebar_state='expanded'
-    )
 
     # Título principal da aplicação
     st.write("""## Escorando o modelo gerado no pycaret """)
@@ -115,7 +88,6 @@ def main():
 
 if __name__ == '__main__':
 	main()
-    
 
 
 
