@@ -774,3 +774,997 @@ Alternately, you can install this by running `pip install pycaret[models]`
 'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
 2024-03-27 15:59:39,163:WARNING:
 'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-03-27 19:02:15,321:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-03-27 19:02:15,322:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-03-27 19:02:15,322:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-03-27 19:02:15,322:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-03-27 19:02:20,290:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_21116\114758609.py:3: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_valid['tempo_emprego'].fillna(value=mean_value, inplace=True)
+
+2024-03-27 19:02:20,408:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_21116\3045838117.py:3: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df1['tempo_emprego'].fillna(value=mean_value, inplace=True)
+
+2024-03-27 19:02:29,805:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_21116\1586662510.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df1['bom'] = 1-df1.mau
+
+2024-03-27 19:02:30,104:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_21116\1586662510.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df1['bom'] = 1-df1.mau
+
+2024-03-27 19:02:30,319:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_21116\1586662510.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df1['bom'] = 1-df1.mau
+
+2024-03-27 19:02:30,593:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_21116\1586662510.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df1['bom'] = 1-df1.mau
+
+2024-03-27 19:02:30,847:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_21116\1586662510.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df1['bom'] = 1-df1.mau
+
+2024-03-27 19:02:31,080:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_21116\1586662510.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df1['bom'] = 1-df1.mau
+
+2024-03-27 19:02:31,307:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_21116\1586662510.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df1['bom'] = 1-df1.mau
+
+2024-03-27 19:02:31,569:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_21116\419241338.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df1['bom'] = 1-df1.mau
+
+2024-03-27 19:02:31,599:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_21116\419241338.py:4: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  g = df1.groupby(cat_srs)
+
+2024-03-27 19:02:31,810:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_21116\419241338.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df1['bom'] = 1-df1.mau
+
+2024-03-27 19:02:31,836:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_21116\419241338.py:4: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  g = df1.groupby(cat_srs)
+
+2024-03-27 19:02:32,041:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_21116\419241338.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df1['bom'] = 1-df1.mau
+
+2024-03-27 19:02:32,068:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_21116\419241338.py:4: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  g = df1.groupby(cat_srs)
+
+2024-03-27 19:02:32,264:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_21116\419241338.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df1['bom'] = 1-df1.mau
+
+2024-03-27 19:02:32,293:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_21116\419241338.py:4: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  g = df1.groupby(cat_srs)
+
+2024-03-27 19:02:32,499:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_21116\419241338.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df1['bom'] = 1-df1.mau
+
+2024-03-27 19:02:32,533:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_21116\419241338.py:4: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  g = df1.groupby(cat_srs)
+
+2024-03-27 19:02:49,426:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_21116\3633195637.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df1['predito1'] = rl.predict(df1)
+
+2024-03-27 19:02:50,252:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_21116\2371250740.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_valid['predito'] = rl2.predict(df_valid)
+
+2024-03-27 19:02:50,580:INFO:PyCaret RegressionExperiment
+2024-03-27 19:02:50,580:INFO:Logging name: credit_score
+2024-03-27 19:02:50,580:INFO:ML Usecase: MLUsecase.REGRESSION
+2024-03-27 19:02:50,580:INFO:version 3.3.0
+2024-03-27 19:02:50,580:INFO:Initializing setup()
+2024-03-27 19:02:50,580:INFO:self.USI: 3c50
+2024-03-27 19:02:50,580:INFO:self._variable_keys: {'fold_generator', 'transform_target_param', 'logging_param', 'target_param', 'X', 'y', 'X_train', '_ml_usecase', 'html_param', 'exp_id', 'log_plots_param', 'y_test', 'X_test', 'memory', 'n_jobs_param', 'seed', 'gpu_n_jobs_param', 'pipeline', 'idx', 'fold_groups_param', 'USI', 'exp_name_log', 'y_train', 'data', 'fold_shuffle_param', 'gpu_param', '_available_plots'}
+2024-03-27 19:02:50,580:INFO:Checking environment
+2024-03-27 19:02:50,580:INFO:python_version: 3.11.8
+2024-03-27 19:02:50,580:INFO:python_build: ('tags/v3.11.8:db85d51', 'Feb  6 2024 22:03:32')
+2024-03-27 19:02:50,580:INFO:machine: AMD64
+2024-03-27 19:02:50,580:INFO:platform: Windows-10-10.0.22631-SP0
+2024-03-27 19:02:50,586:INFO:Memory: svmem(total=16961847296, available=7346618368, percent=56.7, used=9615228928, free=7346618368)
+2024-03-27 19:02:50,587:INFO:Physical Core: 8
+2024-03-27 19:02:50,587:INFO:Logical Core: 16
+2024-03-27 19:02:50,587:INFO:Checking libraries
+2024-03-27 19:02:50,587:INFO:System:
+2024-03-27 19:02:50,587:INFO:    python: 3.11.8 (tags/v3.11.8:db85d51, Feb  6 2024, 22:03:32) [MSC v.1937 64 bit (AMD64)]
+2024-03-27 19:02:50,587:INFO:executable: C:\Users\rafar\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
+2024-03-27 19:02:50,587:INFO:   machine: Windows-10-10.0.22631-SP0
+2024-03-27 19:02:50,587:INFO:PyCaret required dependencies:
+2024-03-27 19:02:50,866:INFO:                 pip: 24.0
+2024-03-27 19:02:50,866:INFO:          setuptools: 65.5.0
+2024-03-27 19:02:50,866:INFO:             pycaret: 3.3.0
+2024-03-27 19:02:50,866:INFO:             IPython: 8.12.3
+2024-03-27 19:02:50,866:INFO:          ipywidgets: 8.1.2
+2024-03-27 19:02:50,866:INFO:                tqdm: 4.66.2
+2024-03-27 19:02:50,866:INFO:               numpy: 1.25.2
+2024-03-27 19:02:50,866:INFO:              pandas: 2.1.4
+2024-03-27 19:02:50,866:INFO:              jinja2: 3.1.3
+2024-03-27 19:02:50,866:INFO:               scipy: 1.11.3
+2024-03-27 19:02:50,866:INFO:              joblib: 1.3.2
+2024-03-27 19:02:50,866:INFO:             sklearn: 1.4.1.post1
+2024-03-27 19:02:50,866:INFO:                pyod: 1.1.3
+2024-03-27 19:02:50,866:INFO:            imblearn: 0.12.0
+2024-03-27 19:02:50,866:INFO:   category_encoders: 2.6.3
+2024-03-27 19:02:50,866:INFO:            lightgbm: 4.3.0
+2024-03-27 19:02:50,866:INFO:               numba: 0.58.1
+2024-03-27 19:02:50,867:INFO:            requests: 2.31.0
+2024-03-27 19:02:50,867:INFO:          matplotlib: 3.7.5
+2024-03-27 19:02:50,867:INFO:          scikitplot: 0.3.7
+2024-03-27 19:02:50,867:INFO:         yellowbrick: 1.5
+2024-03-27 19:02:50,867:INFO:              plotly: 5.20.0
+2024-03-27 19:02:50,867:INFO:    plotly-resampler: Not installed
+2024-03-27 19:02:50,867:INFO:             kaleido: 0.2.1
+2024-03-27 19:02:50,867:INFO:           schemdraw: 0.15
+2024-03-27 19:02:50,867:INFO:         statsmodels: 0.14.1
+2024-03-27 19:02:50,867:INFO:              sktime: 0.27.1
+2024-03-27 19:02:50,867:INFO:               tbats: 1.1.3
+2024-03-27 19:02:50,867:INFO:            pmdarima: 2.0.4
+2024-03-27 19:02:50,867:INFO:              psutil: 5.9.5
+2024-03-27 19:02:50,867:INFO:          markupsafe: 2.1.5
+2024-03-27 19:02:50,867:INFO:             pickle5: Not installed
+2024-03-27 19:02:50,867:INFO:         cloudpickle: 3.0.0
+2024-03-27 19:02:50,867:INFO:         deprecation: 2.1.0
+2024-03-27 19:02:50,867:INFO:              xxhash: 3.4.1
+2024-03-27 19:02:50,867:INFO:           wurlitzer: Not installed
+2024-03-27 19:02:50,867:INFO:PyCaret optional dependencies:
+2024-03-27 19:02:50,882:INFO:                shap: Not installed
+2024-03-27 19:02:50,882:INFO:           interpret: Not installed
+2024-03-27 19:02:50,882:INFO:                umap: Not installed
+2024-03-27 19:02:50,882:INFO:     ydata_profiling: 4.6.5
+2024-03-27 19:02:50,882:INFO:  explainerdashboard: Not installed
+2024-03-27 19:02:50,882:INFO:             autoviz: Not installed
+2024-03-27 19:02:50,882:INFO:           fairlearn: Not installed
+2024-03-27 19:02:50,882:INFO:          deepchecks: Not installed
+2024-03-27 19:02:50,882:INFO:             xgboost: Not installed
+2024-03-27 19:02:50,882:INFO:            catboost: Not installed
+2024-03-27 19:02:50,882:INFO:              kmodes: Not installed
+2024-03-27 19:02:50,882:INFO:             mlxtend: Not installed
+2024-03-27 19:02:50,882:INFO:       statsforecast: Not installed
+2024-03-27 19:02:50,882:INFO:        tune_sklearn: Not installed
+2024-03-27 19:02:50,882:INFO:                 ray: Not installed
+2024-03-27 19:02:50,882:INFO:            hyperopt: Not installed
+2024-03-27 19:02:50,882:INFO:              optuna: Not installed
+2024-03-27 19:02:50,882:INFO:               skopt: Not installed
+2024-03-27 19:02:50,882:INFO:              mlflow: Not installed
+2024-03-27 19:02:50,882:INFO:              gradio: Not installed
+2024-03-27 19:02:50,882:INFO:             fastapi: Not installed
+2024-03-27 19:02:50,882:INFO:             uvicorn: Not installed
+2024-03-27 19:02:50,882:INFO:              m2cgen: Not installed
+2024-03-27 19:02:50,882:INFO:           evidently: Not installed
+2024-03-27 19:02:50,882:INFO:               fugue: Not installed
+2024-03-27 19:02:50,882:INFO:           streamlit: 1.31.1
+2024-03-27 19:02:50,882:INFO:             prophet: Not installed
+2024-03-27 19:02:50,882:INFO:None
+2024-03-27 19:02:50,882:INFO:Set up data.
+2024-03-27 19:02:51,315:INFO:Set up folding strategy.
+2024-03-27 19:02:51,315:INFO:Set up train/test split.
+2024-03-27 19:02:51,446:INFO:Set up index.
+2024-03-27 19:02:51,460:INFO:Assigning column types.
+2024-03-27 19:02:51,567:INFO:Engine successfully changes for model 'lr' to 'sklearn'.
+2024-03-27 19:02:51,567:INFO:Engine for model 'lasso' has not been set explicitly, hence returning None.
+2024-03-27 19:02:51,570:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2024-03-27 19:02:51,573:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2024-03-27 19:02:51,784:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2024-03-27 19:02:51,824:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2024-03-27 19:02:51,824:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:02:51,825:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:02:51,825:INFO:Engine for model 'lasso' has not been set explicitly, hence returning None.
+2024-03-27 19:02:51,828:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2024-03-27 19:02:51,832:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2024-03-27 19:02:52,042:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2024-03-27 19:02:52,074:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2024-03-27 19:02:52,074:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:02:52,074:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:02:52,074:INFO:Engine successfully changes for model 'lasso' to 'sklearn'.
+2024-03-27 19:02:52,077:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2024-03-27 19:02:52,081:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2024-03-27 19:02:52,274:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2024-03-27 19:02:52,304:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2024-03-27 19:02:52,305:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:02:52,305:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:02:52,308:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2024-03-27 19:02:52,311:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2024-03-27 19:02:52,499:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2024-03-27 19:02:52,529:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2024-03-27 19:02:52,529:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:02:52,530:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:02:52,530:INFO:Engine successfully changes for model 'ridge' to 'sklearn'.
+2024-03-27 19:02:52,536:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2024-03-27 19:02:52,720:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2024-03-27 19:02:52,750:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2024-03-27 19:02:52,750:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:02:52,750:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:02:52,757:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2024-03-27 19:02:52,941:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2024-03-27 19:02:52,972:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2024-03-27 19:02:52,972:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:02:52,972:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:02:52,972:INFO:Engine successfully changes for model 'en' to 'sklearn'.
+2024-03-27 19:02:53,158:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2024-03-27 19:02:53,190:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2024-03-27 19:02:53,190:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:02:53,191:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:02:53,374:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2024-03-27 19:02:53,405:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2024-03-27 19:02:53,405:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:02:53,405:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:02:53,405:INFO:Engine successfully changes for model 'knn' to 'sklearn'.
+2024-03-27 19:02:53,589:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2024-03-27 19:02:53,619:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:02:53,620:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:02:53,810:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2024-03-27 19:02:53,841:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:02:53,942:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:02:53,943:INFO:Engine successfully changes for model 'svm' to 'sklearn'.
+2024-03-27 19:02:54,163:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:02:54,163:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:02:54,384:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:02:54,384:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:02:54,392:INFO:Preparing preprocessing pipeline...
+2024-03-27 19:02:54,392:INFO:Set up date feature engineering.
+2024-03-27 19:02:54,392:INFO:Set up simple imputation.
+2024-03-27 19:02:54,493:INFO:Set up encoding of ordinal features.
+2024-03-27 19:02:54,600:INFO:Set up encoding of categorical features.
+2024-03-27 19:02:58,525:INFO:Finished creating preprocessing pipeline.
+2024-03-27 19:02:58,550:INFO:Pipeline: Pipeline(memory=FastMemory(location=C:\Users\rafar\AppData\Local\Temp\joblib),
+         steps=[('date_feature_extractor',
+                 TransformerWrapper(include=['data_ref'],
+                                    transformer=ExtractDateTimeFeatures())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['index', 'qtd_filhos', 'idade',
+                                             'tempo_emprego',
+                                             'qt_pessoas_residencia', 'renda'],
+                                    transformer=SimpleImputer())),
+                ('...
+S      1
+NaN   -1
+dtype: int64},
+                                                                        {'col': 'posse_de_imovel',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': N      0
+S      1
+NaN   -1
+dtype: int64}]))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['tipo_renda', 'educacao',
+                                             'estado_civil',
+                                             'tipo_residencia'],
+                                    transformer=OneHotEncoder(cols=['tipo_renda',
+                                                                    'educacao',
+                                                                    'estado_civil',
+                                                                    'tipo_residencia'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True)))])
+2024-03-27 19:02:58,551:INFO:Creating final display dataframe.
+2024-03-27 19:03:03,493:INFO:Setup _display_container:                     Description         Value
+0                    Session id          4743
+1                        Target           mau
+2                   Target type    Regression
+3           Original data shape  (750000, 15)
+4        Transformed data shape  (750000, 34)
+5   Transformed train set shape  (525000, 34)
+6    Transformed test set shape  (225000, 34)
+7              Numeric features             6
+8                 Date features             1
+9          Categorical features             7
+10     Rows with missing values         16.8%
+11                   Preprocess          True
+12              Imputation type        simple
+13           Numeric imputation          mean
+14       Categorical imputation          mode
+15     Maximum one-hot encoding            25
+16              Encoding method          None
+17               Fold Generator         KFold
+18                  Fold Number            10
+19                     CPU Jobs            -1
+20                      Use GPU         False
+21               Log Experiment         False
+22              Experiment Name  credit_score
+23                          USI          3c50
+2024-03-27 19:03:03,711:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:03:03,712:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:03:03,932:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:03:03,932:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:03:03,940:WARNING:C:\Users\rafar\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pycaret\internal\metrics.py:51: FutureWarning: The `needs_threshold` and `needs_proba` parameter are deprecated in version 1.4 and will be removed in 1.6. You can either let `response_method` be `None` or set it to `predict` to preserve the same behaviour.
+  warnings.warn(
+
+2024-03-27 19:03:03,940:INFO:setup() successfully completed in 13.37s...............
+2024-03-27 19:03:03,947:INFO:Initializing create_model()
+2024-03-27 19:03:03,947:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000018B69B57B10>, estimator=lightgbm, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs=None, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2024-03-27 19:03:03,947:INFO:Checking exceptions
+2024-03-27 19:03:03,955:INFO:Importing libraries
+2024-03-27 19:03:03,955:INFO:Copying training dataset
+2024-03-27 19:03:04,165:INFO:Defining folds
+2024-03-27 19:03:04,165:INFO:Declaring metric variables
+2024-03-27 19:03:04,167:INFO:Importing untrained model
+2024-03-27 19:03:04,169:INFO:Light Gradient Boosting Machine Imported successfully
+2024-03-27 19:03:04,176:INFO:Starting cross validation
+2024-03-27 19:03:04,205:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2024-03-27 19:03:24,817:INFO:Calculating mean and std
+2024-03-27 19:03:24,818:INFO:Creating metrics dataframe
+2024-03-27 19:03:24,822:INFO:Finalizing model
+2024-03-27 19:03:28,606:INFO:[LightGBM] [Warning] Found whitespace in feature_names, replace with underlines
+2024-03-27 19:03:28,694:INFO:[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.015397 seconds.
+2024-03-27 19:03:28,694:INFO:You can set `force_row_wise=true` to remove the overhead.
+2024-03-27 19:03:28,694:INFO:And if memory is not enough, you can set `force_col_wise=true`.
+2024-03-27 19:03:28,695:INFO:[LightGBM] [Info] Total Bins 895
+2024-03-27 19:03:28,695:INFO:[LightGBM] [Info] Number of data points in the train set: 525000, number of used features: 32
+2024-03-27 19:03:28,699:INFO:[LightGBM] [Info] Start training from score 0.077954
+2024-03-27 19:03:29,229:INFO:Uploading results into container
+2024-03-27 19:03:29,230:INFO:Uploading model into container now
+2024-03-27 19:03:29,238:INFO:_master_model_container: 1
+2024-03-27 19:03:29,238:INFO:_display_container: 2
+2024-03-27 19:03:29,238:INFO:LGBMRegressor(n_jobs=-1, random_state=4743)
+2024-03-27 19:03:29,238:INFO:create_model() successfully completed......................................
+2024-03-27 19:03:29,356:INFO:Initializing plot_model()
+2024-03-27 19:03:29,356:INFO:plot_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000018B69B57B10>, estimator=LGBMRegressor(n_jobs=-1, random_state=4743), plot=feature, scale=1, save=False, fold=None, fit_kwargs=None, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=True, system=True, display=None, display_format=None)
+2024-03-27 19:03:29,356:INFO:Checking exceptions
+2024-03-27 19:03:29,442:INFO:Preloading libraries
+2024-03-27 19:03:29,446:INFO:Copying training dataset
+2024-03-27 19:03:29,446:INFO:Plot type: feature
+2024-03-27 19:03:29,447:WARNING:No coef_ found. Trying feature_importances_
+2024-03-27 19:03:30,002:INFO:Visual Rendered Successfully
+2024-03-27 19:03:30,077:INFO:plot_model() successfully completed......................................
+2024-03-27 19:03:30,095:INFO:Initializing plot_model()
+2024-03-27 19:03:30,095:INFO:plot_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000018B69B57B10>, estimator=LGBMRegressor(n_jobs=-1, random_state=4743), plot=auc, scale=1, save=False, fold=None, fit_kwargs=None, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=True, system=True, display=None, display_format=None)
+2024-03-27 19:03:30,095:INFO:Checking exceptions
+2024-03-27 19:05:53,382:INFO:Initializing plot_model()
+2024-03-27 19:05:53,382:INFO:plot_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000018B69B57B10>, estimator=LGBMRegressor(n_jobs=-1, random_state=4743), plot=auc, scale=1, save=False, fold=None, fit_kwargs=None, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=True, system=True, display=None, display_format=None)
+2024-03-27 19:05:53,382:INFO:Checking exceptions
+2024-03-27 19:06:24,819:INFO:Initializing plot_model()
+2024-03-27 19:06:24,819:INFO:plot_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000018B69B57B10>, estimator=LGBMRegressor(n_jobs=-1, random_state=4743), plot=AUC ROC, scale=1, save=False, fold=None, fit_kwargs=None, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=True, system=True, display=None, display_format=None)
+2024-03-27 19:06:24,819:INFO:Checking exceptions
+2024-03-27 19:06:38,033:INFO:Initializing plot_model()
+2024-03-27 19:06:38,033:INFO:plot_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000018B69B57B10>, estimator=LGBMRegressor(n_jobs=-1, random_state=4743), plot=Correlation Plots, scale=1, save=False, fold=None, fit_kwargs=None, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=True, system=True, display=None, display_format=None)
+2024-03-27 19:06:38,033:INFO:Checking exceptions
+2024-03-27 19:07:13,759:INFO:Initializing plot_model()
+2024-03-27 19:07:13,759:INFO:plot_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000018B69B57B10>, estimator=LGBMRegressor(n_jobs=-1, random_state=4743), plot=AUC, scale=1, save=False, fold=None, fit_kwargs=None, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=True, system=True, display=None, display_format=None)
+2024-03-27 19:07:13,759:INFO:Checking exceptions
+2024-03-27 19:08:58,617:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_21116\114758609.py:3: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_valid['tempo_emprego'].fillna(value=mean_value, inplace=True)
+
+2024-03-27 19:08:58,759:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_21116\3045838117.py:3: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df1['tempo_emprego'].fillna(value=mean_value, inplace=True)
+
+2024-03-27 19:09:08,309:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_21116\1586662510.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df1['bom'] = 1-df1.mau
+
+2024-03-27 19:09:08,526:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_21116\1586662510.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df1['bom'] = 1-df1.mau
+
+2024-03-27 19:09:08,739:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_21116\1586662510.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df1['bom'] = 1-df1.mau
+
+2024-03-27 19:09:08,955:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_21116\1586662510.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df1['bom'] = 1-df1.mau
+
+2024-03-27 19:09:09,218:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_21116\1586662510.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df1['bom'] = 1-df1.mau
+
+2024-03-27 19:09:09,456:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_21116\1586662510.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df1['bom'] = 1-df1.mau
+
+2024-03-27 19:09:09,690:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_21116\1586662510.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df1['bom'] = 1-df1.mau
+
+2024-03-27 19:09:09,987:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_21116\419241338.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df1['bom'] = 1-df1.mau
+
+2024-03-27 19:09:10,010:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_21116\419241338.py:4: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  g = df1.groupby(cat_srs)
+
+2024-03-27 19:09:10,220:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_21116\419241338.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df1['bom'] = 1-df1.mau
+
+2024-03-27 19:09:10,239:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_21116\419241338.py:4: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  g = df1.groupby(cat_srs)
+
+2024-03-27 19:09:10,456:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_21116\419241338.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df1['bom'] = 1-df1.mau
+
+2024-03-27 19:09:10,479:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_21116\419241338.py:4: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  g = df1.groupby(cat_srs)
+
+2024-03-27 19:09:10,686:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_21116\419241338.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df1['bom'] = 1-df1.mau
+
+2024-03-27 19:09:10,715:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_21116\419241338.py:4: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  g = df1.groupby(cat_srs)
+
+2024-03-27 19:09:10,933:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_21116\419241338.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df1['bom'] = 1-df1.mau
+
+2024-03-27 19:09:10,963:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_21116\419241338.py:4: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  g = df1.groupby(cat_srs)
+
+2024-03-27 19:09:27,709:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_21116\3633195637.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df1['predito1'] = rl.predict(df1)
+
+2024-03-27 19:09:28,592:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_21116\2371250740.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_valid['predito'] = rl2.predict(df_valid)
+
+2024-03-27 19:09:29,174:INFO:PyCaret RegressionExperiment
+2024-03-27 19:09:29,174:INFO:Logging name: credit_score
+2024-03-27 19:09:29,174:INFO:ML Usecase: MLUsecase.REGRESSION
+2024-03-27 19:09:29,174:INFO:version 3.3.0
+2024-03-27 19:09:29,174:INFO:Initializing setup()
+2024-03-27 19:09:29,174:INFO:self.USI: abd9
+2024-03-27 19:09:29,174:INFO:self._variable_keys: {'fold_generator', 'transform_target_param', 'logging_param', 'target_param', 'X', 'y', 'X_train', '_ml_usecase', 'html_param', 'exp_id', 'log_plots_param', 'y_test', 'X_test', 'memory', 'n_jobs_param', 'seed', 'gpu_n_jobs_param', 'pipeline', 'idx', 'fold_groups_param', 'USI', 'exp_name_log', 'y_train', 'data', 'fold_shuffle_param', 'gpu_param', '_available_plots'}
+2024-03-27 19:09:29,174:INFO:Checking environment
+2024-03-27 19:09:29,175:INFO:python_version: 3.11.8
+2024-03-27 19:09:29,175:INFO:python_build: ('tags/v3.11.8:db85d51', 'Feb  6 2024 22:03:32')
+2024-03-27 19:09:29,175:INFO:machine: AMD64
+2024-03-27 19:09:29,175:INFO:platform: Windows-10-10.0.22631-SP0
+2024-03-27 19:09:29,179:INFO:Memory: svmem(total=16961847296, available=6821212160, percent=59.8, used=10140635136, free=6821212160)
+2024-03-27 19:09:29,179:INFO:Physical Core: 8
+2024-03-27 19:09:29,179:INFO:Logical Core: 16
+2024-03-27 19:09:29,179:INFO:Checking libraries
+2024-03-27 19:09:29,180:INFO:System:
+2024-03-27 19:09:29,180:INFO:    python: 3.11.8 (tags/v3.11.8:db85d51, Feb  6 2024, 22:03:32) [MSC v.1937 64 bit (AMD64)]
+2024-03-27 19:09:29,180:INFO:executable: C:\Users\rafar\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
+2024-03-27 19:09:29,180:INFO:   machine: Windows-10-10.0.22631-SP0
+2024-03-27 19:09:29,180:INFO:PyCaret required dependencies:
+2024-03-27 19:09:29,180:INFO:                 pip: 24.0
+2024-03-27 19:09:29,180:INFO:          setuptools: 65.5.0
+2024-03-27 19:09:29,180:INFO:             pycaret: 3.3.0
+2024-03-27 19:09:29,180:INFO:             IPython: 8.12.3
+2024-03-27 19:09:29,180:INFO:          ipywidgets: 8.1.2
+2024-03-27 19:09:29,180:INFO:                tqdm: 4.66.2
+2024-03-27 19:09:29,180:INFO:               numpy: 1.25.2
+2024-03-27 19:09:29,180:INFO:              pandas: 2.1.4
+2024-03-27 19:09:29,180:INFO:              jinja2: 3.1.3
+2024-03-27 19:09:29,180:INFO:               scipy: 1.11.3
+2024-03-27 19:09:29,180:INFO:              joblib: 1.3.2
+2024-03-27 19:09:29,180:INFO:             sklearn: 1.4.1.post1
+2024-03-27 19:09:29,180:INFO:                pyod: 1.1.3
+2024-03-27 19:09:29,180:INFO:            imblearn: 0.12.0
+2024-03-27 19:09:29,180:INFO:   category_encoders: 2.6.3
+2024-03-27 19:09:29,180:INFO:            lightgbm: 4.3.0
+2024-03-27 19:09:29,180:INFO:               numba: 0.58.1
+2024-03-27 19:09:29,180:INFO:            requests: 2.31.0
+2024-03-27 19:09:29,180:INFO:          matplotlib: 3.7.5
+2024-03-27 19:09:29,180:INFO:          scikitplot: 0.3.7
+2024-03-27 19:09:29,180:INFO:         yellowbrick: 1.5
+2024-03-27 19:09:29,181:INFO:              plotly: 5.20.0
+2024-03-27 19:09:29,181:INFO:    plotly-resampler: Not installed
+2024-03-27 19:09:29,181:INFO:             kaleido: 0.2.1
+2024-03-27 19:09:29,181:INFO:           schemdraw: 0.15
+2024-03-27 19:09:29,181:INFO:         statsmodels: 0.14.1
+2024-03-27 19:09:29,181:INFO:              sktime: 0.27.1
+2024-03-27 19:09:29,181:INFO:               tbats: 1.1.3
+2024-03-27 19:09:29,181:INFO:            pmdarima: 2.0.4
+2024-03-27 19:09:29,181:INFO:              psutil: 5.9.5
+2024-03-27 19:09:29,181:INFO:          markupsafe: 2.1.5
+2024-03-27 19:09:29,181:INFO:             pickle5: Not installed
+2024-03-27 19:09:29,181:INFO:         cloudpickle: 3.0.0
+2024-03-27 19:09:29,181:INFO:         deprecation: 2.1.0
+2024-03-27 19:09:29,181:INFO:              xxhash: 3.4.1
+2024-03-27 19:09:29,181:INFO:           wurlitzer: Not installed
+2024-03-27 19:09:29,181:INFO:PyCaret optional dependencies:
+2024-03-27 19:09:29,181:INFO:                shap: Not installed
+2024-03-27 19:09:29,181:INFO:           interpret: Not installed
+2024-03-27 19:09:29,181:INFO:                umap: Not installed
+2024-03-27 19:09:29,181:INFO:     ydata_profiling: 4.6.5
+2024-03-27 19:09:29,181:INFO:  explainerdashboard: Not installed
+2024-03-27 19:09:29,181:INFO:             autoviz: Not installed
+2024-03-27 19:09:29,181:INFO:           fairlearn: Not installed
+2024-03-27 19:09:29,181:INFO:          deepchecks: Not installed
+2024-03-27 19:09:29,181:INFO:             xgboost: Not installed
+2024-03-27 19:09:29,181:INFO:            catboost: Not installed
+2024-03-27 19:09:29,181:INFO:              kmodes: Not installed
+2024-03-27 19:09:29,181:INFO:             mlxtend: Not installed
+2024-03-27 19:09:29,181:INFO:       statsforecast: Not installed
+2024-03-27 19:09:29,181:INFO:        tune_sklearn: Not installed
+2024-03-27 19:09:29,181:INFO:                 ray: Not installed
+2024-03-27 19:09:29,181:INFO:            hyperopt: Not installed
+2024-03-27 19:09:29,181:INFO:              optuna: Not installed
+2024-03-27 19:09:29,182:INFO:               skopt: Not installed
+2024-03-27 19:09:29,182:INFO:              mlflow: Not installed
+2024-03-27 19:09:29,182:INFO:              gradio: Not installed
+2024-03-27 19:09:29,182:INFO:             fastapi: Not installed
+2024-03-27 19:09:29,182:INFO:             uvicorn: Not installed
+2024-03-27 19:09:29,182:INFO:              m2cgen: Not installed
+2024-03-27 19:09:29,182:INFO:           evidently: Not installed
+2024-03-27 19:09:29,182:INFO:               fugue: Not installed
+2024-03-27 19:09:29,182:INFO:           streamlit: 1.31.1
+2024-03-27 19:09:29,182:INFO:             prophet: Not installed
+2024-03-27 19:09:29,182:INFO:None
+2024-03-27 19:09:29,182:INFO:Set up data.
+2024-03-27 19:09:29,623:INFO:Set up folding strategy.
+2024-03-27 19:09:29,623:INFO:Set up train/test split.
+2024-03-27 19:09:29,756:INFO:Set up index.
+2024-03-27 19:09:29,774:INFO:Assigning column types.
+2024-03-27 19:09:29,882:INFO:Engine successfully changes for model 'lr' to 'sklearn'.
+2024-03-27 19:09:29,883:INFO:Engine for model 'lasso' has not been set explicitly, hence returning None.
+2024-03-27 19:09:29,886:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2024-03-27 19:09:29,889:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2024-03-27 19:09:30,063:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2024-03-27 19:09:30,094:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2024-03-27 19:09:30,094:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:09:30,094:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:09:30,094:INFO:Engine for model 'lasso' has not been set explicitly, hence returning None.
+2024-03-27 19:09:30,098:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2024-03-27 19:09:30,101:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2024-03-27 19:09:30,280:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2024-03-27 19:09:30,311:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2024-03-27 19:09:30,311:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:09:30,311:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:09:30,311:INFO:Engine successfully changes for model 'lasso' to 'sklearn'.
+2024-03-27 19:09:30,315:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2024-03-27 19:09:30,318:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2024-03-27 19:09:30,492:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2024-03-27 19:09:30,522:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2024-03-27 19:09:30,523:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:09:30,523:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:09:30,526:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2024-03-27 19:09:30,530:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2024-03-27 19:09:30,700:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2024-03-27 19:09:30,731:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2024-03-27 19:09:30,731:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:09:30,731:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:09:30,732:INFO:Engine successfully changes for model 'ridge' to 'sklearn'.
+2024-03-27 19:09:30,738:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2024-03-27 19:09:30,911:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2024-03-27 19:09:30,941:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2024-03-27 19:09:30,942:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:09:30,942:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:09:30,948:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2024-03-27 19:09:31,124:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2024-03-27 19:09:31,155:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2024-03-27 19:09:31,155:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:09:31,155:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:09:31,156:INFO:Engine successfully changes for model 'en' to 'sklearn'.
+2024-03-27 19:09:31,340:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2024-03-27 19:09:31,371:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2024-03-27 19:09:31,371:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:09:31,371:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:09:31,568:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2024-03-27 19:09:31,599:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2024-03-27 19:09:31,599:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:09:31,599:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:09:31,600:INFO:Engine successfully changes for model 'knn' to 'sklearn'.
+2024-03-27 19:09:31,793:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2024-03-27 19:09:31,825:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:09:31,825:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:09:32,003:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2024-03-27 19:09:32,034:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:09:32,034:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:09:32,035:INFO:Engine successfully changes for model 'svm' to 'sklearn'.
+2024-03-27 19:09:32,246:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:09:32,247:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:09:32,453:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:09:32,453:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:09:32,454:INFO:Preparing preprocessing pipeline...
+2024-03-27 19:09:32,454:INFO:Set up date feature engineering.
+2024-03-27 19:09:32,454:INFO:Set up simple imputation.
+2024-03-27 19:09:32,552:INFO:Set up encoding of ordinal features.
+2024-03-27 19:09:32,650:INFO:Set up encoding of categorical features.
+2024-03-27 19:09:36,426:INFO:Finished creating preprocessing pipeline.
+2024-03-27 19:09:36,451:INFO:Pipeline: Pipeline(memory=FastMemory(location=C:\Users\rafar\AppData\Local\Temp\joblib),
+         steps=[('date_feature_extractor',
+                 TransformerWrapper(include=['data_ref'],
+                                    transformer=ExtractDateTimeFeatures())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['index', 'qtd_filhos', 'idade',
+                                             'tempo_emprego',
+                                             'qt_pessoas_residencia', 'renda'],
+                                    transformer=SimpleImputer())),
+                ('...
+S      1
+NaN   -1
+dtype: int64},
+                                                                        {'col': 'posse_de_imovel',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': N      0
+S      1
+NaN   -1
+dtype: int64}]))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['tipo_renda', 'educacao',
+                                             'estado_civil',
+                                             'tipo_residencia'],
+                                    transformer=OneHotEncoder(cols=['tipo_renda',
+                                                                    'educacao',
+                                                                    'estado_civil',
+                                                                    'tipo_residencia'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True)))])
+2024-03-27 19:09:36,451:INFO:Creating final display dataframe.
+2024-03-27 19:09:41,206:INFO:Setup _display_container:                     Description         Value
+0                    Session id          3670
+1                        Target           mau
+2                   Target type    Regression
+3           Original data shape  (750000, 15)
+4        Transformed data shape  (750000, 34)
+5   Transformed train set shape  (525000, 34)
+6    Transformed test set shape  (225000, 34)
+7              Numeric features             6
+8                 Date features             1
+9          Categorical features             7
+10     Rows with missing values         16.8%
+11                   Preprocess          True
+12              Imputation type        simple
+13           Numeric imputation          mean
+14       Categorical imputation          mode
+15     Maximum one-hot encoding            25
+16              Encoding method          None
+17               Fold Generator         KFold
+18                  Fold Number            10
+19                     CPU Jobs            -1
+20                      Use GPU         False
+21               Log Experiment         False
+22              Experiment Name  credit_score
+23                          USI          abd9
+2024-03-27 19:09:41,420:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:09:41,420:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:09:41,629:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:09:41,629:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-03-27 19:09:41,629:WARNING:C:\Users\rafar\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pycaret\internal\metrics.py:51: FutureWarning: The `needs_threshold` and `needs_proba` parameter are deprecated in version 1.4 and will be removed in 1.6. You can either let `response_method` be `None` or set it to `predict` to preserve the same behaviour.
+  warnings.warn(
+
+2024-03-27 19:09:41,629:INFO:setup() successfully completed in 12.47s...............
+2024-03-27 19:09:41,650:INFO:Initializing create_model()
+2024-03-27 19:09:41,650:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000018B7B721650>, estimator=lightgbm, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs=None, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2024-03-27 19:09:41,651:INFO:Checking exceptions
+2024-03-27 19:09:41,661:INFO:Importing libraries
+2024-03-27 19:09:41,661:INFO:Copying training dataset
+2024-03-27 19:09:41,876:INFO:Defining folds
+2024-03-27 19:09:41,876:INFO:Declaring metric variables
+2024-03-27 19:09:41,878:INFO:Importing untrained model
+2024-03-27 19:09:41,880:INFO:Light Gradient Boosting Machine Imported successfully
+2024-03-27 19:09:41,884:INFO:Starting cross validation
+2024-03-27 19:09:41,886:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2024-03-27 19:10:12,553:INFO:Calculating mean and std
+2024-03-27 19:10:12,554:INFO:Creating metrics dataframe
+2024-03-27 19:10:12,557:INFO:Finalizing model
+2024-03-27 19:10:16,270:INFO:[LightGBM] [Warning] Found whitespace in feature_names, replace with underlines
+2024-03-27 19:10:16,359:INFO:[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.015321 seconds.
+2024-03-27 19:10:16,359:INFO:You can set `force_row_wise=true` to remove the overhead.
+2024-03-27 19:10:16,359:INFO:And if memory is not enough, you can set `force_col_wise=true`.
+2024-03-27 19:10:16,359:INFO:[LightGBM] [Info] Total Bins 895
+2024-03-27 19:10:16,359:INFO:[LightGBM] [Info] Number of data points in the train set: 525000, number of used features: 32
+2024-03-27 19:10:16,363:INFO:[LightGBM] [Info] Start training from score 0.078036
+2024-03-27 19:10:16,840:INFO:Uploading results into container
+2024-03-27 19:10:16,841:INFO:Uploading model into container now
+2024-03-27 19:10:16,849:INFO:_master_model_container: 1
+2024-03-27 19:10:16,849:INFO:_display_container: 2
+2024-03-27 19:10:16,849:INFO:LGBMRegressor(n_jobs=-1, random_state=3670)
+2024-03-27 19:10:16,849:INFO:create_model() successfully completed......................................
+2024-03-27 19:10:17,037:INFO:Initializing plot_model()
+2024-03-27 19:10:17,037:INFO:plot_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000018B7B721650>, estimator=LGBMRegressor(n_jobs=-1, random_state=3670), plot=feature, scale=1, save=False, fold=None, fit_kwargs=None, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=True, system=True, display=None, display_format=None)
+2024-03-27 19:10:17,037:INFO:Checking exceptions
+2024-03-27 19:10:17,111:INFO:Preloading libraries
+2024-03-27 19:10:17,116:INFO:Copying training dataset
+2024-03-27 19:10:17,116:INFO:Plot type: feature
+2024-03-27 19:10:17,117:WARNING:No coef_ found. Trying feature_importances_
+2024-03-27 19:10:17,646:INFO:Visual Rendered Successfully
+2024-03-27 19:10:17,746:INFO:plot_model() successfully completed......................................
+2024-03-27 19:10:17,766:INFO:Initializing plot_model()
+2024-03-27 19:10:17,766:INFO:plot_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000018B7B721650>, estimator=LGBMRegressor(n_jobs=-1, random_state=3670), plot=AUC, scale=1, save=False, fold=None, fit_kwargs=None, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=True, system=True, display=None, display_format=None)
+2024-03-27 19:10:17,766:INFO:Checking exceptions
+2024-03-27 19:11:56,119:INFO:Initializing plot_model()
+2024-03-27 19:11:56,119:INFO:plot_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000018B7B721650>, estimator=LGBMRegressor(n_jobs=-1, random_state=3670), plot=AUC, scale=1, save=False, fold=None, fit_kwargs=None, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=True, system=True, display=None, display_format=None)
+2024-03-27 19:11:56,119:INFO:Checking exceptions
+2024-03-27 19:12:34,994:INFO:Initializing plot_model()
+2024-03-27 19:12:34,994:INFO:plot_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000018B7B721650>, estimator=LGBMRegressor(n_jobs=-1, random_state=3670), plot=AUC, scale=1, save=False, fold=None, fit_kwargs=None, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=True, system=True, display=None, display_format=None)
+2024-03-27 19:12:34,994:INFO:Checking exceptions
+2024-03-27 19:12:35,715:INFO:Initializing plot_model()
+2024-03-27 19:12:35,715:INFO:plot_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000018B7B721650>, estimator=LGBMRegressor(n_jobs=-1, random_state=3670), plot=AUC, scale=1, save=False, fold=None, fit_kwargs=None, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=True, system=True, display=None, display_format=None)
+2024-03-27 19:12:35,716:INFO:Checking exceptions
+2024-03-27 19:12:36,127:INFO:Initializing plot_model()
+2024-03-27 19:12:36,127:INFO:plot_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000018B7B721650>, estimator=LGBMRegressor(n_jobs=-1, random_state=3670), plot=AUC, scale=1, save=False, fold=None, fit_kwargs=None, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=True, system=True, display=None, display_format=None)
+2024-03-27 19:12:36,127:INFO:Checking exceptions
+2024-03-27 19:12:40,874:INFO:Initializing plot_model()
+2024-03-27 19:12:40,874:INFO:plot_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000018B7B721650>, estimator=LGBMRegressor(n_jobs=-1, random_state=3670), plot=pr, scale=1, save=False, fold=None, fit_kwargs=None, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=True, system=True, display=None, display_format=None)
+2024-03-27 19:12:40,874:INFO:Checking exceptions
+2024-03-27 19:12:43,058:INFO:Initializing plot_model()
+2024-03-27 19:12:43,058:INFO:plot_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000018B7B721650>, estimator=LGBMRegressor(n_jobs=-1, random_state=3670), plot=confusion_matrix, scale=1, save=False, fold=None, fit_kwargs=None, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=True, system=True, display=None, display_format=None)
+2024-03-27 19:12:43,058:INFO:Checking exceptions
+2024-03-27 19:12:45,741:INFO:Initializing predict_model()
+2024-03-27 19:12:45,742:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000018B7B721650>, estimator=LGBMRegressor(n_jobs=-1, random_state=3670), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000018B83175120>)
+2024-03-27 19:12:45,742:INFO:Checking exceptions
+2024-03-27 19:12:45,742:INFO:Preloading libraries
+2024-03-27 19:12:46,557:WARNING:C:\Users\rafar\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\metrics\_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+
+2024-03-27 19:12:48,556:INFO:Initializing save_model()
+2024-03-27 19:12:48,556:INFO:save_model(model=LGBMRegressor(n_jobs=-1, random_state=3670), model_name=model_final.pkl, prep_pipe_=Pipeline(memory=FastMemory(location=C:\Users\rafar\AppData\Local\Temp\joblib),
+         steps=[('date_feature_extractor',
+                 TransformerWrapper(include=['data_ref'],
+                                    transformer=ExtractDateTimeFeatures())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['index', 'qtd_filhos', 'idade',
+                                             'tempo_emprego',
+                                             'qt_pessoas_residencia', 'renda'],
+                                    transformer=SimpleImputer())),
+                ('...
+S      1
+NaN   -1
+dtype: int64},
+                                                                        {'col': 'posse_de_imovel',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': N      0
+S      1
+NaN   -1
+dtype: int64}]))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['tipo_renda', 'educacao',
+                                             'estado_civil',
+                                             'tipo_residencia'],
+                                    transformer=OneHotEncoder(cols=['tipo_renda',
+                                                                    'educacao',
+                                                                    'estado_civil',
+                                                                    'tipo_residencia'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True)))]), verbose=True, use_case=MLUsecase.REGRESSION, kwargs={})
+2024-03-27 19:12:48,556:INFO:Adding model into prep_pipe
+2024-03-27 19:12:48,566:INFO:model_final.pkl.pkl saved in current working directory
+2024-03-27 19:12:48,601:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('date_feature_extractor',
+                 TransformerWrapper(include=['data_ref'],
+                                    transformer=ExtractDateTimeFeatures())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['index', 'qtd_filhos', 'idade',
+                                             'tempo_emprego',
+                                             'qt_pessoas_residencia', 'renda'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(...
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': N      0
+S      1
+NaN   -1
+dtype: int64}]))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['tipo_renda', 'educacao',
+                                             'estado_civil',
+                                             'tipo_residencia'],
+                                    transformer=OneHotEncoder(cols=['tipo_renda',
+                                                                    'educacao',
+                                                                    'estado_civil',
+                                                                    'tipo_residencia'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=3670))])
+2024-03-27 19:12:48,601:INFO:save_model() successfully completed......................................
+2024-03-27 19:15:04,828:INFO:Initializing plot_model()
+2024-03-27 19:15:04,828:INFO:plot_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000018B7B721650>, estimator=LGBMRegressor(n_jobs=-1, random_state=3670), plot=auc_, scale=1, save=False, fold=None, fit_kwargs=None, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=True, system=True, display=None, display_format=None)
+2024-03-27 19:15:04,828:INFO:Checking exceptions
+2024-03-27 19:15:35,185:INFO:Initializing plot_model()
+2024-03-27 19:15:35,185:INFO:plot_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000018B7B721650>, estimator=LGBMRegressor(n_jobs=-1, random_state=3670), plot=auc_, scale=1, save=False, fold=None, fit_kwargs=None, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=True, system=True, display=None, display_format=None)
+2024-03-27 19:15:35,185:INFO:Checking exceptions
+2024-03-27 19:15:58,342:INFO:Initializing plot_model()
+2024-03-27 19:15:58,342:INFO:plot_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000018B7B721650>, estimator=LGBMRegressor(n_jobs=-1, random_state=3670), plot=auc, scale=1, save=False, fold=None, fit_kwargs=None, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=True, system=True, display=None, display_format=None)
+2024-03-27 19:15:58,342:INFO:Checking exceptions
