@@ -1,4 +1,3 @@
-
 # Imports
 import pandas            as pd
 import streamlit         as st
@@ -43,7 +42,7 @@ def main():
         df_credit = pd.read_feather(data_file_1)
         df_credit = df_credit.sample(50000)
 
-        model_saved = load_model('Best Model Projeto Final 122022')
+        model_saved = load_model('Final_model_270324')
         predict = predict_model(model_saved, data=df_credit)
 
         df_xlsx = to_excel(predict)
@@ -54,13 +53,3 @@ def main():
 
 if __name__ == '__main__':
 	main()
-    
-
-
-
-
-
-
-
-
-
