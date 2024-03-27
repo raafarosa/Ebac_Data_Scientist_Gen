@@ -48,6 +48,18 @@ def main():
         unsafe_allow_html=True,
     )
     
+    # Apresenta a imagem na barra lateral da aplicação
+    st.sidebar.image('https://raw.githubusercontent.com/raafarosa/Ebac_Data_Scientist_General/main/utilities/newebac_logo_black_half.png')
+
+    #Bibliotecas
+    with st.sidebar.expander(label="Bibliotecas/Pacotes", expanded=False):
+        st.code('''
+                import pandas as pd
+                import streamlit as st
+                from io import BytesIO
+                from pycaret.classification import load_model, predict_model
+                ''', language='python')
+
     # Botão para carregar arquivo na aplicação
     st.sidebar.write("#### Suba o arquivo")
     data_file_1 = st.sidebar.file_uploader("Bank Credit Dataset", type=['csv', 'ftr'])
@@ -66,7 +78,7 @@ def main():
         df_xlsx = to_excel(predict)
         st.download_button(label='📥 Download',
                            data=df_xlsx,
-                           file_name='predict.csv')
+                           file_name='data.xlsx')
 
 
 if __name__ == '__main__':

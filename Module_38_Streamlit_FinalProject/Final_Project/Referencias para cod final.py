@@ -21,7 +21,6 @@ def to_excel(df):
     processed_data = output.getvalue()
     return processed_data
 
-
 ### Criando os segmentos
 def recencia_class(x, r, q_dict):
     """Classifica como melhor o menor quartil 
