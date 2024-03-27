@@ -6,7 +6,6 @@ import streamlit         as st
 from io                     import BytesIO
 from pycaret.classification import load_model, predict_model
 
-
 @st.cache
 def convert_df(df):
     return df.to_csv(index=False).encode('utf-8')
@@ -25,13 +24,13 @@ def to_excel(df):
 # Função principal da aplicação
 def main():
     # Configuração inicial da página da aplicação
-    st.set_page_config(page_title = 'PyCaret', \
+    st.set_page_config(page_title = 'Final project', \
         layout="wide",
         initial_sidebar_state='expanded'
     )
 
     # Título principal da aplicação
-    st.write("""## Escorando o modelo gerado no pycaret """)
+    st.write("""## Gerando dados a partir do modelo pycaret """)
     st.markdown("---")
     
     # Botão para carregar arquivo na aplicação
