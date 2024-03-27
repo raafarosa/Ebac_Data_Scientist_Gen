@@ -1,6 +1,7 @@
 # Imports
 import pandas as pd
 import streamlit as st
+import xlsxwriter
 from io import BytesIO
 from pycaret.classification import load_model, predict_model
 
