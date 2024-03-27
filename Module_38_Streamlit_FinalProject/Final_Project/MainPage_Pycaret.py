@@ -4,17 +4,16 @@ import streamlit as st
 from io import BytesIO
 from pycaret.classification import load_model, predict_model
 
-@st.cache
+@st.cache_data
 def convert_df(df):
     return df.to_csv(index=False).encode('utf-8')
 
 # Função para converter o df para excel
-@st.cache
+@st.cache_data
 def to_excel(df):
     output = BytesIO()
     writer = pd.ExcelWriter(output, engine='xlsxwriter')
     df.to_excel(writer, index=False, sheet_name='Sheet1')
-    writer.save()  # Remova essa linha, pois pd.ExcelWriter não requer este método.
     processed_data = output.getvalue()
     return processed_data
 
@@ -46,7 +45,7 @@ def main():
         df_xlsx = to_excel(predict)
         st.download_button(label='📥 Download',
                            data=df_xlsx,
-                           file_name='predict.xlsx')
+                           file_name='predict.csv')
 
 
 if __name__ == '__main__':
