@@ -17,22 +17,43 @@ def to_excel(df):
     processed_data = output.getvalue()
     return processed_data
 
-
 # Função principal da aplicação
 def main():
     # Configuração inicial da página da aplicação
-    st.set_page_config(page_title='Final project', \
+    st.set_page_config(
+        page_title="Final Project",
+        page_icon='https://raw.githubusercontent.com/raafarosa/Ebac_Data_Scientist_General/main/utilities/regular_ebac-logo.ico', 
         layout="wide",
-        initial_sidebar_state='expanded'
+        initial_sidebar_state="expanded",
     )
 
-    # Título principal da aplicação
-    st.write("""## Gerando dados a partir do modelo pycaret """)
-    st.markdown("---")
+    # TÍTULO
+    st.markdown(
+        """
+    <div style="text-align:center">
+        <a href="https://github.com/raafarosa/Ebac_Data_Scientist_General">
+            <img src="https://raw.githubusercontent.com/raafarosa/Ebac_Data_Scientist_General/main/utilities/newebac_logo_black_half.png" alt="ebac_logo-data_science" width=100%>
+        </a>
+    </div> 
+
+    ---
+
+    <!-- # **Profissão: Cientista de Dados** -->
+    # **Projeto final**
+
+    **Aluno:** [Rafael Rosa](https://www.linkedin.com/in/rafael-rosa-alves/)<br>
+
+    ---
+    """,
+        unsafe_allow_html=True,
+    )
     
     # Botão para carregar arquivo na aplicação
-    st.sidebar.write("## Suba o arquivo")
+    st.sidebar.write("#### Suba o arquivo")
     data_file_1 = st.sidebar.file_uploader("Bank Credit Dataset", type=['csv', 'ftr'])
+
+    # Descrição
+    st.markdown('# Geração de dados convertidos do pycaret em excel')
 
     # Verifica se há conteúdo carregado na aplicação
     if (data_file_1 is not None):
