@@ -79,6 +79,7 @@ def main():
                         
                         ---
                         ''', unsafe_allow_html=True)
+
     
 
     with st.sidebar.expander(label="Bibliotecas/Pacotes", expanded=False):

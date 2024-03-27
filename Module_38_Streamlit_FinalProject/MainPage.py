@@ -1,4 +1,3 @@
-
 # Imports
 import pandas            as pd
 import streamlit         as st
@@ -6,6 +5,68 @@ import streamlit         as st
 from io                     import BytesIO
 from pycaret.classification import load_model, predict_model
 
+# Função principal da aplicação
+def main():
+    # Configuração inicial da página da aplicação
+    st.set_page_config(
+        page_title="EBAC | Module 31 | Practice 2",
+        page_icon='https://raw.githubusercontent.com/raafarosa/Ebac_Data_Scientist_General/main/utilities/regular_ebac-logo.ico', 
+        layout="wide",
+        initial_sidebar_state="expanded",
+    )
+
+
+    st.sidebar.markdown('''
+                        # **Profissão: Cientista de Dados**
+                        ### **Projeto de Agrupamento Hierárquico**
+
+                        **Por:** [Rafael Rosa](https://www.linkedin.com/in/rafael-rosa-alves/)<br>
+                        
+                        ---
+                        ''', unsafe_allow_html=True)
+
+    
+
+    with st.sidebar.expander(label="Bibliotecas/Pacotes", expanded=False):
+        st.code('''
+                import streamlit             as st
+                import io
+
+                import numpy                 as np
+                import pandas                as pd
+                import matplotlib.pyplot     as plt
+                import seaborn               as sns
+
+                from gower                   import gower_matrix
+
+                from scipy.spatial.distance  import squareform
+                from scipy.cluster.hierarchy import linkage
+                from scipy.cluster.hierarchy import dendrogram
+                from scipy.cluster.hierarchy import fcluster
+                ''', language='python')
+
+        
+
+    st.sidebar.markdown('''
+                        ---
+                        *Baseado no [Exercício 2](https://github.com/raafarosa/Ebac_Data_Scientist_General/tree/main/Module%2030%20-%20Hier%C3%A1rquicos%20aglomerativos/Practice%202) do [Módulo 30](https://github.com/raafarosa/Ebac_Data_Scientist_General/tree/main/Module%2030%20-%20Hier%C3%A1rquicos%20aglomerativos).*
+                        ''')
+
+
+    st.markdown('''
+                <div style="text-align:center">
+                    <img src="https://raw.githubusercontent.com/raafarosa/Ebac_Data_Scientist_General/main/utilities/newebac_logo_black_half.png" alt="ebac_logo-data_science" width="100%">
+                </div>
+
+                ---
+
+                <!-- # **Profissão: Cientista de Dados** -->
+                ### **Module 31** | Streamlit V (Practice 2)
+
+                **Por:** [Rafael Rosa](https://www.linkedin.com/in/rafael-rosa-alves/)<br>
+
+                ---
+                ''', unsafe_allow_html=True)
 
 @st.cache
 def convert_df(df):
