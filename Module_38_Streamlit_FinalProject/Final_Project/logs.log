@@ -8221,3 +8221,30 @@ pickle: {'deps_info': {'pip': '24.0', 'setuptools': '65.5.0', 'pycaret': '3.3.0'
 2024-03-27 20:57:43,871:INFO:Preloading libraries
 2024-03-27 20:57:43,871:INFO:Set up data.
 2024-03-27 20:57:43,895:INFO:Set up index.
+2024-03-27 21:00:08,960:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-03-27 21:00:08,960:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-03-27 21:00:08,960:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-03-27 21:00:08,960:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-03-27 21:00:10,091:WARNING:C:\Users\rafar\AppData\Local\Temp\ipykernel_27440\3790471650.py:10: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_train['mes'] = df_train['data_ref'].dt.month
+
+2024-03-27 21:02:12,239:INFO:PyCaret ClassificationExperiment
+2024-03-27 21:02:12,239:INFO:Logging name: credit_1
+2024-03-27 21:02:12,239:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2024-03-27 21:02:12,239:INFO:version 3.3.0
+2024-03-27 21:02:12,239:INFO:Initializing setup()
+2024-03-27 21:02:12,239:INFO:self.USI: b80f
+2024-03-27 21:02:12,239:INFO:self._variable_keys: {'USI', 'fix_imbalance', 'y_train', 'memory', 'X_train', 'exp_name_log', 'is_multiclass', 'n_jobs_param', '_available_plots', 'gpu_param', 'fold_generator', 'pipeline', 'logging_param', 'y', 'seed', 'data', 'target_param', 'gpu_n_jobs_param', 'html_param', 'y_test', 'fold_shuffle_param', 'idx', 'log_plots_param', 'fold_groups_param', '_ml_usecase', 'X_test', 'exp_id', 'X'}
+2024-03-27 21:02:12,240:INFO:Checking environment
+2024-03-27 21:02:12,240:INFO:python_version: 3.11.8
+2024-03-27 21:02:12,240:INFO:python_build: ('tags/v3.11.8:db85d51', 'Feb  6 2024 22:03:32')
+2024-03-27 21:02:12,240:INFO:machine: AMD64
+2024-03-27 21:02:12,240:INFO:platform: Windows-10-10.0.22631-SP0
