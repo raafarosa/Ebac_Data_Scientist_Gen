@@ -12,8 +12,6 @@ Segmentação de clientes utilizando o RFV (Recência, Frequência e Valor)
 
 ## Link para a aplicação:
 
-### Practice 1
-
 > [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=Streamlit&logoColor=white)](https://module-38-final-project.streamlit.app/) <br>
 > [![GitHub](https://img.shields.io/github/directory-file-count/raafarosa/Ebac_Data_Scientist_General/Module_19_-_Streamlit2%2FPractice_1?type=dir&style=flat-square&logo=Github)](https://github.com/raafarosa/Ebac_Data_Scientist_General/tree/main/Module_38_Streamlit_FinalProject/Final_Project)
 
