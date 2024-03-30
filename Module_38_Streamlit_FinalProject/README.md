@@ -19,7 +19,7 @@
 
 ---
 
-##### Para a melhor utilização do portal, realizar o download do arquivo: [credit_scoring.frt](https://github.com/raafarosa/Ebac_Data_Scientist_General/blob/main/Module_38_Streamlit_FinalProject%2FFinal_Project%2Fcredit_scoring.ftr) e anexá-lo no portal para a geração do arquivo.xlsx
+#### Para a melhor utilização do portal, realizar o download do arquivo: [credit_scoring.frt](https://github.com/raafarosa/Ebac_Data_Scientist_General/blob/main/Module_38_Streamlit_FinalProject%2FFinal_Project%2Fcredit_scoring.ftr) e anexá-lo no portal para a geração do arquivo.xlsx
 
 ---
 
