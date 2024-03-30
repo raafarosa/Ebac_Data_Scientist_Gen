@@ -109,7 +109,6 @@ pytest==8.1.1
 pytest-timeit==0.3.0
 python-dateutil==2.9.0
 pytz==2024.1
-pywin32==306
 pyzmq==25.1.2
 realtime==1.0.2
 referencing==0.33.0
