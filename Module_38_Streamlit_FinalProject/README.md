@@ -19,3 +19,7 @@
 
 ---
 
+### Nota: Para a melhor utilização do portal baixar o arquivo disponível no diretório
+
+---
+
