@@ -1,6 +1,6 @@
 ![](https://raw.githubusercontent.com/raafarosa/Ebac_Data_Scientist_General/main/utilities/newebac_logo_black_half.png)
 
-Aqui está o texto sem os links:
+<details open><summary><h1>Python para Análise de Dados</h1></summary>
 
 - [x] Módulo 1 - Python: Variáveis & Tipos de Dados
 - [x] Módulo 2 - Python: Estruturas de Dados
@@ -13,7 +13,11 @@ Aqui está o texto sem os links:
 - [x] Módulo 9 - Python: Scripting
 - [x] Módulo 10 - Python: Projeto Final
 
-<details><summary><h3>SQL para Análise de Dados</h3></summary>
+---
+
+</details>
+
+<details open><summary><h1>SQL para Análise de Dados</h1></summary>
 
 - [x] Módulo 1 - Base de dados & Linguagem SQL
 - [x] Módulo 2 - Trabalhando com Tabelas
@@ -23,6 +27,8 @@ Aqui está o texto sem os links:
 - [x] Módulo 6 - Trabalhando com Múltiplas Tabelas
 - [x] Módulo 7 - SQL Avançado
 - [x] Módulo 8 - Projeto Final
+
+---
 
 </details>
 
@@ -64,8 +70,6 @@ Aqui está o texto sem os links:
 - [x] Módulo 30 - Hierárquicos / aglomerativos
 - [x] Módulo 31 - Streamlit V
 - [x] Módulo 32 - Probabilidade
-- [ ] Módulo 33 - Inferência
-
-<details open>
-  <summary
-
+- [X] Módulo 33 - Inferência
+</details>
+----
