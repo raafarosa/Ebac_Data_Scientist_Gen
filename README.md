@@ -13,7 +13,7 @@
 - [x] Módulo 9 - Python: Scripting
 
 # Projeto final:
-  > [![Jupyter](https://img.shields.io/badge/Jupyter-F37626.svg?&logo=Jupyter&logoColor=white)](https://github.com/raafarosa/Ebac-Semantix/blob/main/ebac-x-semantix-project.ipynb) <br>
+  > [![Jupyter](https://img.shields.io/badge/Jupyter-F37626.svg?&logo=Jupyter&logoColor=white)](https://github.com/raafarosa/Ebac_Data_Scientist_Python/blob/main/module-10-final-project.ipynb) <br>
 
 ---
 
@@ -30,7 +30,7 @@
 - [x] Módulo 7 - SQL Avançado
 
 # Projeto final:
-  > [![Jupyter](https://img.shields.io/badge/Jupyter-F37626.svg?&logo=Jupyter&logoColor=white)](https://github.com/raafarosa/Ebac-Semantix/blob/main/ebac-x-semantix-project.ipynb) <br>
+  > [![Jupyter](https://img.shields.io/badge/Jupyter-F37626.svg?&logo=Jupyter&logoColor=white)](https://github.com/raafarosa/Ebac_SQL_for_Data_Analysis/blob/main/Module%208%20-%20Projeto%20final/Module_8_Final_Project_Rafael_Rosa.ipynb) <br>
 ---
 
 </details>
