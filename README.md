@@ -80,9 +80,9 @@
 
 ---
 
-## Projeto final:
+# Projeto final:
 
-## App execution:
+### App execution:
 
 >
 [Aplication_Execution.webm](https://github.com/raafarosa/Ebac_Data_Scientist_General/assets/141688193/c8451096-f54a-4f21-bb78-f248bb7de9a3)
