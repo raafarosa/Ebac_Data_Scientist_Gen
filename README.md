@@ -42,6 +42,9 @@
     <h1>Projeto de parceria Semantix</h1>
   </summary>
 
+  [![](https://raw.githubusercontent.com/raafarosa/Ebac-Semantix/main/utilities/Logos_colab.jpg)](https://github.com/raafarosa/Ebac_Data_Scientist_General)
+---
+
   ### Aplication
 
 > [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=Streamlit&logoColor=white)](https://ebac-x-semantix-project.streamlit.app/) <br>
