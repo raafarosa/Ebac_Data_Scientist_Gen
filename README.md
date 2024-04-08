@@ -11,7 +11,9 @@
 - [x] Módulo 7 - Python: Módulos & Pacotes
 - [x] Módulo 8 - Python: Tratamento de Erros
 - [x] Módulo 9 - Python: Scripting
-- [x] Módulo 10 - Python: Projeto Final
+
+## Projeto final:
+
 
 ---
 
@@ -26,7 +28,8 @@
 - [x] Módulo 5 - Agregações
 - [x] Módulo 6 - Trabalhando com Múltiplas Tabelas
 - [x] Módulo 7 - SQL Avançado
-- [x] Módulo 8 - Projeto Final
+
+## Projeto final:
 
 ---
 
@@ -70,6 +73,11 @@
 - [x] Módulo 30 - Hierárquicos / aglomerativos
 - [x] Módulo 31 - Streamlit V
 - [x] Módulo 32 - Probabilidade
-- [X] Módulo 33 - Inferência
+- [X] Módulo 34 - Regressão III
+- [X] Módulo 35 - Regressão IV
+- [X] Módulo 36 - Descritiva IV
+- [X] Módulo 37 - Regressão Logística II
+## Projeto final:
+
 </details>
 ----
