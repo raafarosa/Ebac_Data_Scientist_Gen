@@ -77,6 +77,7 @@
 - [X] Módulo 35 - Regressão IV
 - [X] Módulo 36 - Descritiva IV
 - [X] Módulo 37 - Regressão Logística II
+
 ## Projeto final:
 
 </details>
