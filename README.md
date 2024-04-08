@@ -12,8 +12,8 @@
 - [x] Módulo 8 - Python: Tratamento de Erros
 - [x] Módulo 9 - Python: Scripting
 
-## Projeto final:
-
+# Projeto final:
+  > [![Jupyter](https://img.shields.io/badge/Jupyter-F37626.svg?&logo=Jupyter&logoColor=white)](https://github.com/raafarosa/Ebac-Semantix/blob/main/ebac-x-semantix-project.ipynb) <br>
 
 ---
 
@@ -29,11 +29,34 @@
 - [x] Módulo 6 - Trabalhando com Múltiplas Tabelas
 - [x] Módulo 7 - SQL Avançado
 
-## Projeto final:
-
+# Projeto final:
+  > [![Jupyter](https://img.shields.io/badge/Jupyter-F37626.svg?&logo=Jupyter&logoColor=white)](https://github.com/raafarosa/Ebac-Semantix/blob/main/ebac-x-semantix-project.ipynb) <br>
 ---
 
 </details>
+
+---
+
+<details open>
+  <summary>
+    <h1>Projeto de parceria Semantix</h1>
+  </summary>
+
+  ### Aplication
+
+> [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=Streamlit&logoColor=white)](https://ebac-x-semantix-project.streamlit.app/) <br>
+> [![GitHub](https://img.shields.io/github/directory-file-count/raafarosa/Ebac_Data_Scientist_General/Module_19_-_Streamlit2%2FPractice_1?type=dir&style=flat-square&logo=Github)](https://github.com/raafarosa/Ebac-Semantix/blob/main/MainPageSemantix.py)
+
+---
+
+### Jupyter Notebook
+
+  > [![Jupyter](https://img.shields.io/badge/Jupyter-F37626.svg?&logo=Jupyter&logoColor=white)](https://github.com/raafarosa/Ebac-Semantix/blob/main/ebac-x-semantix-project.ipynb) <br>
+> [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/raafarosa/ebac-x-semantix-project)<br>
+---
+
+
+---
 
 <details open>
   <summary>
@@ -82,11 +105,11 @@
 
 # Projeto final:
 
-#### Link para a aplicação:
-
 > [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=Streamlit&logoColor=white)](https://module-38-final-project.streamlit.app/) <br>
 > [![GitHub](https://img.shields.io/github/directory-file-count/raafarosa/Ebac_Data_Scientist_General/Module_19_-_Streamlit2%2FPractice_1?type=dir&style=flat-square&logo=Github)](https://github.com/raafarosa/Ebac_Data_Scientist_General/tree/main/Module_38_Streamlit_FinalProject/Final_Project)
 
 ---
 </details>
 ----
+
+---
