@@ -2,6 +2,7 @@
 
 <details open><summary><h1>Python para Análise de Dados</h1></summary>
 
+### [Repository](https://github.com/raafarosa/Ebac_Data_Scientist_Python)
 - [x] Módulo 1 - Python: Variáveis & Tipos de Dados
 - [x] Módulo 2 - Python: Estruturas de Dados
 - [x] Módulo 3 - Python: Fluxo Condicional & Repetição
@@ -20,6 +21,8 @@
 </details>
 
 <details open><summary><h1>SQL para Análise de Dados</h1></summary>
+
+### [Repository](https://github.com/raafarosa/Ebac_SQL_for_Data_Analysis)
 
 - [x] Módulo 1 - Base de dados & Linguagem SQL
 - [x] Módulo 2 - Trabalhando com Tabelas
@@ -62,6 +65,8 @@
   <summary>
     <h1>Curso Profissão: Cientista de Dados</h1>
   </summary>
+
+  ### [Repository](https://github.com/raafarosa/Ebac_Data_Scientist_General)
 
 - [x] Módulo 01 - Perspectivas de Carreira
 - [x] Módulo 02 - Metodologia
