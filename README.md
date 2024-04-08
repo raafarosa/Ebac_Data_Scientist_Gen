@@ -58,9 +58,6 @@
 > [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/raafarosa/ebac-x-semantix-project)<br>
 ---
 
-
----
-
 <details open>
   <summary>
     <h1>Curso Profissão: Cientista de Dados</h1>
